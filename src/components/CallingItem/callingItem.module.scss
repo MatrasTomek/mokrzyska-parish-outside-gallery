@@ -1,0 +1,55 @@
+@import "../../Root/common.scss";
+
+.itemWrapper {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid $first-color;
+
+    img {
+        width: 80px;
+        height: 100px;
+    }
+
+    p {
+        flex-basis: 50%;
+        font-size: $s-font-size;
+        color: $third-color;
+
+    }
+
+    p:nth-child(odd) {
+        flex-basis: 60%;
+        text-align: end;
+    }
+
+    p:nth-child(even) {
+        flex-basis: 38%;
+        margin-left: 5px;
+    }
+
+    p:nth-last-child(1) {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    @media screen and (min-width: map-get($breakpoins, xl)) {
+        flex-basis: 45%;
+
+        img {
+            width: 100px;
+            height: 120px;
+        }
+
+        p {
+            font-size: $m-font-size;
+            color: $third-color;
+
+        }
+    }
+
+}

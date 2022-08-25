@@ -1,0 +1,128 @@
+@import "../../Root/common.scss";
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  // .img {
+  //   width: 100%;
+  //   height: 500px;
+  //   background-image: url('../../assets/images/church-g4fcfdc698_640.jpg');
+  //   background-size: cover;
+  //   background-position: center;
+  //   background-repeat: no-repeat;
+  // }
+
+
+  h2 {
+    margin-bottom: 40px;
+    color: $third-color;
+    text-align: center;
+    align-items: center;
+    justify-self: center
+  }
+
+  .element {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border-bottom: 1px solid $third-color;
+
+    p {
+      font-size: 16px;
+      color: $third-color;
+      margin: 10px;
+      text-align: left;
+
+      span {
+        font-weight: 700;
+      }
+    }
+
+    .italian {
+      font-style: italic;
+    }
+  }
+
+  .confession {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    h3 {
+      flex-basis: 100%;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    table {
+      border: 2px solid $third-color;
+      border-radius: 5px;
+      padding: 5px;
+
+      tr {
+
+        th {
+          border-bottom: 2px solid $third-color;
+        }
+      }
+
+      tr {
+        td {
+          border: 1px solid $third-color;
+          text-align: center;
+          padding: 5px;
+          font-size: $s-font-size;
+
+          span {
+            font-weight: 700;
+          }
+
+          p {
+            width: 100px;
+          }
+        }
+      }
+    }
+  }
+
+
+
+
+  @media screen and (min-width: map-get($breakpoins, lm)) {
+    width: 80%;
+
+    .element {
+
+
+      p {
+        font-size: 18px;
+      }
+    }
+
+    .confession {
+      table {
+        tr {
+          td {
+            font-size: $m-font-size;
+
+            p {
+              width: 140px;
+              ;
+            }
+          }
+        }
+      }
+    }
+
+  }
+}

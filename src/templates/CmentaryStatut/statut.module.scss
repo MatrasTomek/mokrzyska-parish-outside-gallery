@@ -1,0 +1,26 @@
+@import "../../Root/common.scss";
+
+.wrapper{
+    width: 90%;
+    margin: 20px auto;
+    h3{
+        margin: 20px auto;
+text-align: center;
+color: $third-color;
+    }
+    p{
+        margin: 10px 0 10px 20px;
+        color: $third-color;
+        span{
+            font-weight: 700;
+        }
+    }
+    ul{
+        list-style: decimal;
+        margin: 10px 0 10px 30px;
+       
+        ul{
+          list-style: square;
+        }
+    }
+}

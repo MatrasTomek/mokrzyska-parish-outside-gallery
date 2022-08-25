@@ -1,0 +1,18 @@
+@import "../../Root/common.scss";
+
+.button {
+  width: 80px;
+  height: 40px;
+  padding: 5px 10px;
+  background-color: $first-color;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  &:hover {
+    background-color: $third-color;
+    color: $first-color;
+  }
+}

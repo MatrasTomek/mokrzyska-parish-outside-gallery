@@ -1,0 +1,12 @@
+@import "../../Root/common.scss";
+.wrapper {
+  width: 80%;
+  margin: 20px auto;
+  color: $third-color;
+  h1 {
+    margin: 0 auto 20px auto;
+  }
+  h3 {
+    margin: 15px auto;
+  }
+}

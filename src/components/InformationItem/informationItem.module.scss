@@ -1,0 +1,26 @@
+@import "../../Root/common.scss";
+
+.wrapper {
+  border: 1px solid $first-color;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  div {
+    p {
+      border-bottom: 1px solid $first-color;
+      font-weight: 700;
+    }
+  }
+  ul {
+    list-style: none;
+    li {
+      margin: 10px auto;
+    }
+  }
+  button {
+    width: 120px;
+    height: 30px;
+    padding: 2px 7px;
+    font-weight: normal;
+  }
+}

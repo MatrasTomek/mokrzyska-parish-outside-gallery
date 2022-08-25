@@ -1,0 +1,51 @@
+@import "../../Root/common.scss";
+
+.wrapper {
+    width: 100%;
+
+    .inside {
+        width: 85%;
+        margin: 40px auto;
+
+        .title {
+            h1 {
+                text-transform: uppercase;
+            }
+
+            h1,
+            h3,
+            p {
+                text-align: center;
+                margin: 10px;
+                color: $third-color;
+            }
+        }
+
+        .item {
+            margin-top: 30px;
+
+            h3 {
+                margin-bottom: 15px;
+                color: $third-color
+            }
+
+            p {
+                margin: 10px auto;
+
+                span {
+                    font-weight: 700;
+                }
+            }
+
+            span {
+                margin: 10px auto;
+                font-weight: 700;
+                color: $third-color
+            }
+
+            ul {
+                margin: 10px auto 10px 30px;
+            }
+        }
+    }
+}

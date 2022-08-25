@@ -1,0 +1,57 @@
+@import "../../../Root/common.scss";
+
+.wrapper {
+  width: 85%;
+  margin: 20px auto;
+
+  h3 {
+    color: $third-color;
+    margin: 20px auto;
+    text-align: center;
+  }
+  p {
+    color: $third-color;
+    margin-bottom: 15px;
+    span {
+      font-weight: 700;
+    }
+  }
+  .sign {
+    text-align: end;
+    font-style: italic;
+  }
+  .post {
+    margin: 30px auto;
+    text-align: center;
+    font-weight: 700;
+  }
+  @media screen and (min-width: map-get($breakpoins, sm)) {
+    .images {
+      .imageItem {
+        height: 280px;
+      }
+    }
+  }
+  @media screen and (min-width: map-get($breakpoins, sl)) {
+    .images {
+      justify-content: space-around;
+      .imageItem {
+        flex-basis: 45%;
+      }
+    }
+  }
+  @media screen and (min-width: map-get($breakpoins, lm)) {
+    .images {
+      .imageItem {
+        height: 320px;
+      }
+    }
+  }
+  @media screen and (min-width: map-get($breakpoins, xx)) {
+    .images {
+      .imageItem {
+        flex-basis: 32%;
+      }
+    }
+  }
+}

@@ -1,0 +1,102 @@
+@import "../../Root/common.scss";
+
+.wrapper {
+  width: 100%;
+  padding-bottom: 20px;
+  background-color: $third-color;
+  color: $text-third-color;
+  .inside {
+    width: $inside-width;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .logo {
+      width: 120px;
+      height: 120px;
+      margin-top: 20px;
+      background-image: url("../../assets/images/logo2.png");
+      background-size: cover;
+      background-position: center;
+    }
+    .adress {
+      h3 {
+        margin: 20px auto;
+        text-align: center;
+      }
+      p {
+        margin: 10px auto;
+        text-align: center;
+      }
+      h4 {
+        text-align: center;
+        color: black;
+      }
+    }
+    .contact {
+      h4 {
+        margin: 20px auto;
+        text-align: center;
+      }
+      a {
+        margin: 10px auto;
+        text-align: center;
+        text-decoration: none;
+        color: $fifth-color;
+        font-weight: 700;
+        transition: 0.3s;
+        &:hover {
+          color: $text-second-color;
+        }
+      }
+    }
+    .politics {
+      width: 100%;
+      margin: 20px auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      a {
+        text-align: center;
+        text-decoration: none;
+        color: $fifth-color;
+        font-weight: 700;
+        transition: 0.3s;
+        &:hover {
+          color: $text-second-color;
+        }
+      }
+      .copyright {
+        text-align: center;
+      }
+    }
+    .producer {
+      a {
+        color: $text-second-color;
+        text-decoration: none;
+        transition: 0.3s;
+        &:hover {
+          color: $fifth-color;
+        }
+      }
+    }
+  }
+  @media screen and (min-width: map-get($breakpoins, lm)) {
+    .inside {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      .logo {
+        width: 200px;
+        height: 200px;
+      }
+      .adress {
+        flex-basis: 40%;
+      }
+      .politics {
+        flex-basis: 100%;
+      }
+    }
+  }
+}
