@@ -1,17 +1,3 @@
-export { default as Service1_22 } from "./Service1_koledowanie_2022";
-export { default as Service2_22 } from "./Service2_paczka_UA_2022";
-export { default as Service3_22 } from "./Service3_uchodcy";
-export { default as Service4_22 } from "./Service4_aspiranci_2022";
-export { default as Service5_22 } from "./Service5_n_palmowa_2022";
-export { default as Service6_22 } from "./Service6_rekolekcje_2022";
-export { default as Service7_22 } from "./Service7_wielkanoc_przedszkole_2022";
-export { default as Service8_22 } from "./Service8_w_czw_2022";
-export { default as Service9_22 } from "./Service9_w_pia_2022";
-export { default as Service10_22 } from "./Service10_w_sob_2022";
-export { default as Service11_22 } from "./Service11_w_nie_2022";
-export { default as Service12_22 } from "./Service12_sFlorian__2022";
-export { default as Service13_22 } from "./Service13_majowka__2022";
-export { default as Service14_22 } from "./Service14_majowka__zakonczenie_2022";
 export { default as Service15_22 } from "./Service15_70_lat_szkola";
 export { default as Service16_22 } from "./Service16_boze_cialo_2022";
 export { default as Service17_22 } from "./Service17_odpust_2022";
