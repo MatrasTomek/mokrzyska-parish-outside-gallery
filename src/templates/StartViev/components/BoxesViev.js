@@ -103,7 +103,7 @@ const BoxesViev = () => {
 
 			<div className={styles.outside}>
 				<div className={styles.slider}>{sliders}</div>
-				<a href="http://www.galeria.parafiamokrzyska.pl/">
+				<a href="http://www.galeria.parafiamokrzyska.pl">
 					<div>
 						<h2>galeria</h2>
 

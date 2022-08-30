@@ -11,7 +11,14 @@ import Calling from "../templates/Calling/Calling";
 import Statut from "../templates/CmentaryStatut/Statut";
 import Transmition from "../templates/Transmition/Transmition";
 
-import { Service16_22, Service17_22, Service18_22, Service19_22, Service20_22 } from "../templates/Services2022";
+import {
+	Service1,
+	Service16_22,
+	Service17_22,
+	Service18_22,
+	Service19_22,
+	Service20_22,
+} from "../templates/Services2022";
 import RodoViev from "../templates/RodoViev/RodoViev";
 // import Temporary from "../templates/Temporary/Temporary";
 
@@ -28,6 +35,7 @@ function MainSwitch() {
 				<Route path="/regulamin" component={Statut} />
 				<Route path="/powolania" component={Calling} />
 				<Route path="/transmisja" component={Transmition} />
+				<Route path="/naszKosciol" component={Service1} />
 				<Route path="/boze-cialo-2022" component={Service16_22} />
 				<Route path="/odpust-2022" component={Service17_22} />
 				<Route path="/sandomierz-2022" component={Service18_22} />
