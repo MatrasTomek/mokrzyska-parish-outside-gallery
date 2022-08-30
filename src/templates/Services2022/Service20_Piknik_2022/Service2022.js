@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import ItemImage from "../../../components/ImageItem/ItemImage";
+import ItemImage from "../../../components/ImageItemNoCopy/ItemImage";
 
 import styles from "../stylesForPic.module.scss";
 
-const Service15_22 = () => {
+const Service20_22 = () => {
 	const [modalOpen, setModalOpen] = useState(false);
 	const [pictureNo, setPictureNo] = useState(false);
 
@@ -13,11 +13,11 @@ const Service15_22 = () => {
 		console.log(e.target.id);
 	};
 
-	const catalogName = "szkola_70_lat_2022";
+	const catalogName = "piknik_2022";
 	// const pictureEnd = "";
 	const arrayOfPictures = [];
 
-	for (let i = 1; i < 178; i++) {
+	for (let i = 1; i < 423; i++) {
 		const picObj = {
 			id: i,
 			path: `/images/${catalogName}/${i}.jpg`,
@@ -38,13 +38,7 @@ const Service15_22 = () => {
 	));
 	return (
 		<div className={styles.wrapper}>
-			<h3>
-				Msza Dziękczynna z okazji 70-lecia Publicznej Szkoły Podstawowej im. Tadeusza Kościuszki w Mokrzyskach
-			</h3>
-
-			<p>Mokrzyska 11.06.2022 r.</p>
-
-			{/* <h4></h4> */}
+			<h3>Piknik Parafialny Parafia z Sercem, Mokrzyska 2022.</h3>
 
 			<p>Galeria (kliknij na zdjecie aby powiększyć)</p>
 
@@ -62,4 +56,4 @@ const Service15_22 = () => {
 	);
 };
 
-export default Service15_22;
+export default Service20_22;

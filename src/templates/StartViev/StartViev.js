@@ -10,29 +10,29 @@ import RodoBanner from "../../components/RodoBanner/RodoBanner";
 import styles from "./startViev.module.scss";
 
 const StartViev = () => {
-  const { vievBanner, setVievBanner } = useContext(StoreContext);
+	const { vievBanner, setVievBanner } = useContext(StoreContext);
 
-  return (
-    <div className={styles.wrapper}>
-      <div className={styles.image}></div>
+	return (
+		<div className={styles.wrapper}>
+			<div className={styles.image}></div>
 
-      <div className={styles.inside}>
-        <BoxesViev />
-      </div>
-      <div className={styles.mainInfo}>
-        <MainViev />
-      </div>
-      <div className={styles.inside}>
-        <div className={styles.bigInfo}>
-          <Link to="/naszKosciol">Zobacz Nasz Kościół</Link>
-        </div>
-        <div className={styles.gridInfo}>
-          <GridViev />
-        </div>
-      </div>
-      {vievBanner === true ? <RodoBanner setVievBanner={setVievBanner} /> : ""}
-    </div>
-  );
+			<div className={styles.inside}>
+				<BoxesViev />
+			</div>
+			<div className={styles.mainInfo}>
+				<MainViev />
+			</div>
+			<div className={styles.inside}>
+				<div className={styles.bigInfo}>
+					<Link to="/naszKosciol">Zobacz Nasz Kościół</Link>
+				</div>
+				<div className={styles.gridInfo}>
+					<GridViev />
+				</div>
+			</div>
+			{vievBanner === true ? <RodoBanner setVievBanner={setVievBanner} /> : ""}
+		</div>
+	);
 };
 
 export default StartViev;

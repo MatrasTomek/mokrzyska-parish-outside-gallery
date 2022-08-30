@@ -13,6 +13,20 @@ const GridViev = () => {
 					<div
 						className={styles.image}
 						style={{
+							backgroundImage: `url(images/piknik_2022/53.jpg)`,
+						}}
+					></div>
+					<div className={styles.info}>
+						<h4>Piknik Parafialny Parafia z Sercem, Mokrzyska 2022.</h4>
+					</div>
+					<Link to="/piknikParafialny2022">
+						<Button name="zobacz" />
+					</Link>
+				</div>
+				<div className={styles.element}>
+					<div
+						className={styles.image}
+						style={{
 							backgroundImage: `url(images/budowa_przedszkole_2022/26.jpg)`,
 						}}
 					></div>
@@ -63,23 +77,6 @@ const GridViev = () => {
 						<h4>Uroczystość Najświętszego Ciała i Krwi Chrystusa. Mokrzyska 16.06.2022r.</h4>
 					</div>
 					<Link to="/boze-cialo-2022">
-						<Button name="zobacz" />
-					</Link>
-				</div>
-				<div className={styles.element}>
-					<div
-						className={styles.image}
-						style={{
-							backgroundImage: `url(images/szkola_70_lat_2022/125.jpg)`,
-						}}
-					></div>
-					<div className={styles.info}>
-						<h4>
-							Msza Dziękczynna z okazji 70-lecia Publicznej Szkoły Podstawowej im. Tadeusza Kościuszki w
-							Mokrzyskach 11.06.2022 r.
-						</h4>
-					</div>
-					<Link to="/70-lat-szkoly">
 						<Button name="zobacz" />
 					</Link>
 				</div>

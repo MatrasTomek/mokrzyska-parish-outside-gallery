@@ -1,17 +1,17 @@
 import { React, useState } from "react";
-import { useHistory } from "react-router-dom";
+// import { useHistory } from "react-router-dom";
 import Button from "../../components/Buttons/Button";
 import styles from "./box.module.scss";
 
 const BoxInformation = () => {
 	const [flag, setFlag] = useState(true);
 
-	const history = useHistory();
+	// const history = useHistory();
 
-	const handleOnGoToSite = () => {
-		setFlag(false);
-		history.push("/temporary");
-	};
+	// const handleOnGoToSite = () => {
+	// 	setFlag(false);
+	// 	history.push("/temporary");
+	// };
 
 	const handleCloseButton = () => {
 		setFlag(false);

@@ -1,0 +1,99 @@
+@import "../../Root/common.scss";
+
+.image {
+  position: relative;
+  width: 95vw;
+  height: 95vh;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid black;
+
+  p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    // background-color: white;
+    color: black;
+    opacity: 0.6;
+    z-index: 100;
+  }
+
+  .buttons {
+    position: absolute;
+    bottom: 2%;
+    width: 100%;
+    height: 40px;
+    margin: 10px auto;
+
+    .left {
+      position: absolute;
+      top: 50%;
+      left: 0px;
+      transform: translateY(-50%);
+      width: 50px;
+      height: 50px;
+      background-color: white;
+      border-radius: 50%;
+      opacity: 0.8;
+      background-image: url("../../assets/images/arrow_left.png");
+      background-size: cover;
+      background-position: center;
+      background-position-x: 10px;
+      z-index: 10;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $first-color;
+      }
+
+      @media screen and (min-width: map-get($breakpoins, lm)) {
+        left: 2%;
+      }
+    }
+
+    .right {
+      position: absolute;
+      top: 50%;
+      right: 0px;
+      transform: translateY(-50%);
+      width: 50px;
+      height: 50px;
+      background-color: white;
+      border-radius: 50%;
+      opacity: 0.8;
+      background-image: url("../../assets/images/arrow_right.png");
+      background-size: cover;
+      background-position: center;
+      z-index: 10;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $first-color;
+      }
+
+      @media screen and (min-width: map-get($breakpoins, lm)) {
+        right: 2%;
+      }
+    }
+
+    button {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .none {
+      display: none;
+    }
+  }
+
+  @media screen and (orientation: landscape) and (min-width: map-get($breakpoins, sl)) {
+    width: 65vw;
+  }
+
+  @media screen and (orientation: landscape) and (min-width: map-get($breakpoins, xl)) {
+    width: 50vw;
+  }
+}
