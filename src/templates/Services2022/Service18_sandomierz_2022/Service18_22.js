@@ -10,7 +10,6 @@ const Service18_22 = () => {
 	const handleShowPicture = (e) => {
 		setModalOpen(true);
 		setPictureNo(Number(e.target.id));
-		console.log(e.target.id);
 	};
 
 	const catalogName = "sandomierz_2022";

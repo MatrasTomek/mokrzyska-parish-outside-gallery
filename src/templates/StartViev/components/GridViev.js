@@ -13,6 +13,20 @@ const GridViev = () => {
 					<div
 						className={styles.image}
 						style={{
+							backgroundImage: `url(images/fatima_2022/75.jpg)`,
+						}}
+					></div>
+					<div className={styles.info}>
+						<h4>Zakończenie Nabożeństw Fatimskich. Mokrzyska 13.10.2022r.</h4>
+					</div>
+					<Link to="/fatima-2022">
+						<Button name="zobacz" />
+					</Link>
+				</div>
+				<div className={styles.element}>
+					<div
+						className={styles.image}
+						style={{
 							backgroundImage: `url(images/piknik_2022/53.jpg)`,
 						}}
 					></div>
@@ -63,20 +77,6 @@ const GridViev = () => {
 						<h4>Niedziela Odpustu Parafialnego – 26 VI 2022r. </h4>
 					</div>
 					<Link to="/odpust-2022">
-						<Button name="zobacz" />
-					</Link>
-				</div>
-				<div className={styles.element}>
-					<div
-						className={styles.image}
-						style={{
-							backgroundImage: `url(images/boze_calo_2022/12.jpg)`,
-						}}
-					></div>
-					<div className={styles.info}>
-						<h4>Uroczystość Najświętszego Ciała i Krwi Chrystusa. Mokrzyska 16.06.2022r.</h4>
-					</div>
-					<Link to="/boze-cialo-2022">
 						<Button name="zobacz" />
 					</Link>
 				</div>

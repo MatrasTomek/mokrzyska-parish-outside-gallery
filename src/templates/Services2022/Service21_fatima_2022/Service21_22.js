@@ -3,7 +3,7 @@ import ItemImage from "../../../components/ImageItem/ItemImage";
 
 import styles from "../stylesForPic.module.scss";
 
-const Service16_22 = () => {
+const Service21_22 = () => {
 	const [modalOpen, setModalOpen] = useState(false);
 	const [pictureNo, setPictureNo] = useState(false);
 
@@ -13,11 +13,11 @@ const Service16_22 = () => {
 		console.log(e.target.id);
 	};
 
-	const catalogName = "boze_calo_2022";
+	const catalogName = "fatima_2022";
 	// const pictureEnd = "";
 	const arrayOfPictures = [];
 
-	for (let i = 1; i < 151; i++) {
+	for (let i = 1; i < 107; i++) {
 		const picObj = {
 			id: i,
 			path: `/images/${catalogName}/${i}.jpg`,
@@ -38,9 +38,9 @@ const Service16_22 = () => {
 	));
 	return (
 		<div className={styles.wrapper}>
-			<h3>Uroczystość Najświętszego Ciała i Krwi Chrystusa.</h3>
+			<h3>Zakończenie Nabożeństw Fatimskich.</h3>
 
-			<p>Mokrzyska 16.06.2022 r.</p>
+			<p>Mokrzyska 13.10.2022 r.</p>
 
 			{/* <h4></h4> */}
 
@@ -60,4 +60,4 @@ const Service16_22 = () => {
 	);
 };
 
-export default Service16_22;
+export default Service21_22;

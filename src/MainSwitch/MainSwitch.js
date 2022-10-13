@@ -13,7 +13,7 @@ import Transmition from "../templates/Transmition/Transmition";
 
 import {
 	Service1,
-	Service16_22,
+	Service21_22,
 	Service17_22,
 	Service18_22,
 	Service19_22,
@@ -36,7 +36,7 @@ function MainSwitch() {
 				<Route path="/powolania" component={Calling} />
 				<Route path="/transmisja" component={Transmition} />
 				<Route path="/naszKosciol" component={Service1} />
-				<Route path="/boze-cialo-2022" component={Service16_22} />
+				<Route path="/fatima-2022" component={Service21_22} />
 				<Route path="/odpust-2022" component={Service17_22} />
 				<Route path="/sandomierz-2022" component={Service18_22} />
 				<Route path="/bud-przedsz-2022" component={Service19_22} />
