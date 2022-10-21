@@ -10,6 +10,7 @@ import IntentionsOver from "../templates/IntentionsOver/IntentionsOver";
 import Calling from "../templates/Calling/Calling";
 import Statut from "../templates/CmentaryStatut/Statut";
 import Transmition from "../templates/Transmition/Transmition";
+import Council from "../templates/Council/Council";
 
 import {
 	Service1,
@@ -35,6 +36,7 @@ function MainSwitch() {
 				<Route path="/regulamin" component={Statut} />
 				<Route path="/powolania" component={Calling} />
 				<Route path="/transmisja" component={Transmition} />
+				<Route path="/rada" component={Council} />
 				<Route path="/naszKosciol" component={Service1} />
 				<Route path="/fatima-2022" component={Service21_22} />
 				<Route path="/odpust-2022" component={Service17_22} />

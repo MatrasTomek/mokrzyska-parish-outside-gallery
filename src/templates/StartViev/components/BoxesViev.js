@@ -111,6 +111,24 @@ const BoxesViev = () => {
 					</div>
 				</a>
 			</div>
+			<div className={styles.outside}>
+				<Link to="/rada">
+					<div>
+						<h2>rada duszpasterska</h2>
+						<p></p>
+						<Button name="zobacz" />
+					</div>
+				</Link>
+			</div>
+			<div className={styles.outside}>
+				<Link to="/powolania">
+					<div>
+						<h2>powołania</h2>
+						<p></p>
+						<Button name="zobacz" />
+					</div>
+				</Link>
+			</div>
 		</div>
 	);
 };
