@@ -39,7 +39,7 @@ function MainSwitch() {
 				<Route path="/rada" component={Council} />
 				<Route path="/naszKosciol" component={Service1} />
 				<Route path="/fatima-2022" component={Service21_22} />
-				<Route path="/odpust-2022" component={Service17_22} />
+				<Route path="/koncert-2022" component={Service17_22} />
 				<Route path="/sandomierz-2022" component={Service18_22} />
 				<Route path="/bud-przedsz-2022" component={Service19_22} />
 				<Route path="/piknikParafialny2022" component={Service20_22} />

@@ -13,6 +13,23 @@ const GridViev = () => {
 					<div
 						className={styles.image}
 						style={{
+							backgroundImage: `url(images/koncert_partiotyczny_2022/36.jpg)`,
+						}}
+					></div>
+					<div className={styles.info}>
+						<h4>
+							Koncert Patriotyczny w wykonaniu Młodzieżowej Orkiestry: CRUSHED SOUNDS BIG BAND pod
+							dyrekcją Pawła Swoszowskiego - 24.10.2022r.
+						</h4>
+					</div>
+					<Link to="/koncert-2022">
+						<Button name="zobacz" />
+					</Link>
+				</div>
+				<div className={styles.element}>
+					<div
+						className={styles.image}
+						style={{
 							backgroundImage: `url(images/fatima_2022/75.jpg)`,
 						}}
 					></div>
@@ -63,20 +80,6 @@ const GridViev = () => {
 						<h4>18.07.2022r.</h4>
 					</div>
 					<Link to="/sandomierz-2022">
-						<Button name="zobacz" />
-					</Link>
-				</div>
-				<div className={styles.element}>
-					<div
-						className={styles.image}
-						style={{
-							backgroundImage: `url(images/odpust_2022/66.jpg)`,
-						}}
-					></div>
-					<div className={styles.info}>
-						<h4>Niedziela Odpustu Parafialnego – 26 VI 2022r. </h4>
-					</div>
-					<Link to="/odpust-2022">
 						<Button name="zobacz" />
 					</Link>
 				</div>
