@@ -12,14 +12,7 @@ import Statut from "../templates/CmentaryStatut/Statut";
 import Transmition from "../templates/Transmition/Transmition";
 import Council from "../templates/Council/Council";
 
-import {
-	Service1,
-	Service21_22,
-	Service17_22,
-	Service18_22,
-	Service19_22,
-	Service20_22,
-} from "../templates/Services2022";
+import { Service1, Service2_22, Service3_22, Service4_22, Service5_22, Service6_22 } from "../templates/Services2022";
 import RodoViev from "../templates/RodoViev/RodoViev";
 // import Temporary from "../templates/Temporary/Temporary";
 
@@ -38,11 +31,11 @@ function MainSwitch() {
 				<Route path="/transmisja" component={Transmition} />
 				<Route path="/rada" component={Council} />
 				<Route path="/naszKosciol" component={Service1} />
-				<Route path="/fatima-2022" component={Service21_22} />
-				<Route path="/koncert-2022" component={Service17_22} />
-				<Route path="/sandomierz-2022" component={Service18_22} />
-				<Route path="/bud-przedsz-2022" component={Service19_22} />
-				<Route path="/piknikParafialny2022" component={Service20_22} />
+				<Route path="/fatima-2022" component={Service2_22} />
+				<Route path="/koncert-2022" component={Service3_22} />
+				<Route path="/lektorzy-2022" component={Service4_22} />
+				<Route path="/forum-rad-2022" component={Service5_22} />
+				<Route path="/medal-2022" component={Service6_22} />
 				{/* <Route path="/temporary" component={Temporary} /> */}
 				<Route path="/rodo" component={RodoViev} />
 

@@ -3,20 +3,21 @@ import ItemImage from "../../../components/ImageItem/ItemImage";
 
 import styles from "../stylesForPic.module.scss";
 
-const Service18_22 = () => {
+const Service5_22 = () => {
 	const [modalOpen, setModalOpen] = useState(false);
 	const [pictureNo, setPictureNo] = useState(false);
 
 	const handleShowPicture = (e) => {
 		setModalOpen(true);
 		setPictureNo(Number(e.target.id));
+		console.log(e.target.id);
 	};
 
-	const catalogName = "sandomierz_2022";
+	const catalogName = "forum_rad_2022";
 	// const pictureEnd = "";
 	const arrayOfPictures = [];
 
-	for (let i = 1; i < 126; i++) {
+	for (let i = 1; i < 8; i++) {
 		const picObj = {
 			id: i,
 			path: `/images/${catalogName}/${i}.jpg`,
@@ -37,9 +38,9 @@ const Service18_22 = () => {
 	));
 	return (
 		<div className={styles.wrapper}>
-			<h3>Wyjazd Liturgicznej Służby Ołtarza i Dziewczęcej Służby Maryjnej do Sandomierza</h3>
+			<h3>Forum Parafialnych Rad Duszpasterskich.</h3>
 
-			<p>18.07.2022r. </p>
+			<p>Tarnów 19 XI 2022.</p>
 
 			<p>Galeria (kliknij na zdjecie aby powiększyć)</p>
 
@@ -57,4 +58,4 @@ const Service18_22 = () => {
 	);
 };
 
-export default Service18_22;
+export default Service5_22;

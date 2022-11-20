@@ -13,6 +13,53 @@ const GridViev = () => {
 					<div
 						className={styles.image}
 						style={{
+							backgroundImage: `url(images/medal_lechowicz_2022/18.jpg)`,
+						}}
+					></div>
+					<div className={styles.info}>
+						<h4>
+							Uroczystość Chrystusa Króla oraz odznaczenie medalem Dei Regno Servire, Ludwika Lechowicza.
+						</h4>
+						<h4>Tarnów 19 XI 2022</h4>
+					</div>
+					<Link to="/medal-2022">
+						<Button name="zobacz" />
+					</Link>
+				</div>
+				<div className={styles.element}>
+					<div
+						className={styles.image}
+						style={{
+							backgroundImage: `url(images/forum_rad_2022/5.jpg)`,
+						}}
+					></div>
+					<div className={styles.info}>
+						<h4>Forum Parafialnych Rad Duszpasterskich.</h4>
+						<h4>Tarnów 19 XI 2022.</h4>
+					</div>
+					<Link to="/forum-rad-2022">
+						<Button name="zobacz" />
+					</Link>
+				</div>
+				<div className={styles.element}>
+					<div
+						className={styles.image}
+						style={{
+							backgroundImage: `url(images/grono_lektorow_2022/13.jpg)`,
+						}}
+					></div>
+					<div className={styles.info}>
+						<h4>Przyjęcie kandydatów do Grona Lektorów.</h4>
+						<h4>Szczepanów 19 XI 2022.</h4>
+					</div>
+					<Link to="/lektorzy-2022">
+						<Button name="zobacz" />
+					</Link>
+				</div>
+				<div className={styles.element}>
+					<div
+						className={styles.image}
+						style={{
 							backgroundImage: `url(images/koncert_partiotyczny_2022/36.jpg)`,
 						}}
 					></div>
@@ -37,49 +84,6 @@ const GridViev = () => {
 						<h4>Zakończenie Nabożeństw Fatimskich. Mokrzyska 13.10.2022r.</h4>
 					</div>
 					<Link to="/fatima-2022">
-						<Button name="zobacz" />
-					</Link>
-				</div>
-				<div className={styles.element}>
-					<div
-						className={styles.image}
-						style={{
-							backgroundImage: `url(images/piknik_2022/53.jpg)`,
-						}}
-					></div>
-					<div className={styles.info}>
-						<h4>Piknik Parafialny Parafia z Sercem, Mokrzyska 2022.</h4>
-					</div>
-					<Link to="/piknikParafialny2022">
-						<Button name="zobacz" />
-					</Link>
-				</div>
-				<div className={styles.element}>
-					<div
-						className={styles.image}
-						style={{
-							backgroundImage: `url(images/budowa_przedszkole_2022/26.jpg)`,
-						}}
-					></div>
-					<div className={styles.info}>
-						<h4>Obecne prace remontowe w Publicznym Przedszkolu Parafialnym w Mokrzyskach.</h4>
-					</div>
-					<Link to="/bud-przedsz-2022">
-						<Button name="zobacz" />
-					</Link>
-				</div>
-				<div className={styles.element}>
-					<div
-						className={styles.image}
-						style={{
-							backgroundImage: `url(images/sandomierz_2022/19.jpg)`,
-						}}
-					></div>
-					<div className={styles.info}>
-						<h4>Wyjazd Liturgicznej Służby Ołtarza i Dziewczęcej Służby Maryjnej do Sandomierza</h4>
-						<h4>18.07.2022r.</h4>
-					</div>
-					<Link to="/sandomierz-2022">
 						<Button name="zobacz" />
 					</Link>
 				</div>

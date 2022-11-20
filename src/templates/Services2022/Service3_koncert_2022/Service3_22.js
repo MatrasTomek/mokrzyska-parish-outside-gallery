@@ -3,7 +3,7 @@ import ItemImage from "../../../components/ImageItem/ItemImage";
 
 import styles from "../stylesForPic.module.scss";
 
-const Service17_22 = () => {
+const Service3_22 = () => {
 	const [modalOpen, setModalOpen] = useState(false);
 	const [pictureNo, setPictureNo] = useState(false);
 
@@ -62,4 +62,4 @@ const Service17_22 = () => {
 	);
 };
 
-export default Service17_22;
+export default Service3_22;

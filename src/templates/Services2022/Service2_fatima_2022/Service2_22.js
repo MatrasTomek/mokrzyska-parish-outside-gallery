@@ -3,7 +3,7 @@ import ItemImage from "../../../components/ImageItem/ItemImage";
 
 import styles from "../stylesForPic.module.scss";
 
-const Service19_22 = () => {
+const Service2_22 = () => {
 	const [modalOpen, setModalOpen] = useState(false);
 	const [pictureNo, setPictureNo] = useState(false);
 
@@ -13,11 +13,11 @@ const Service19_22 = () => {
 		console.log(e.target.id);
 	};
 
-	const catalogName = "budowa_przedszkole_2022";
+	const catalogName = "fatima_2022";
 	// const pictureEnd = "";
 	const arrayOfPictures = [];
 
-	for (let i = 1; i < 27; i++) {
+	for (let i = 1; i < 107; i++) {
 		const picObj = {
 			id: i,
 			path: `/images/${catalogName}/${i}.jpg`,
@@ -38,7 +38,11 @@ const Service19_22 = () => {
 	));
 	return (
 		<div className={styles.wrapper}>
-			<h3>Obecne prace remontowe w Publicznym Przedszkolu Parafialnym w Mokrzyskach.</h3>
+			<h3>Zakończenie Nabożeństw Fatimskich.</h3>
+
+			<p>Mokrzyska 13.10.2022 r.</p>
+
+			{/* <h4></h4> */}
 
 			<p>Galeria (kliknij na zdjecie aby powiększyć)</p>
 
@@ -56,4 +60,4 @@ const Service19_22 = () => {
 	);
 };
 
-export default Service19_22;
+export default Service2_22;

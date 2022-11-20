@@ -1,6 +1,6 @@
 export { default as Service1 } from "./Service1_Church";
-export { default as Service21_22 } from "./Service21_fatima_2022";
-export { default as Service17_22 } from "./Service17_koncert_2022";
-export { default as Service18_22 } from "./Service18_sandomierz_2022";
-export { default as Service19_22 } from "./Service19_budowa_przedsz_2022";
-export { default as Service20_22 } from "./Service20_Piknik_2022";
+export { default as Service2_22 } from "./Service2_fatima_2022";
+export { default as Service3_22 } from "./Service3_koncert_2022";
+export { default as Service4_22 } from ".//Service4_grono_kondytatow_2022";
+export { default as Service5_22 } from "./Service5_forum_rad_2022";
+export { default as Service6_22 } from "./Service6_Medal_2022";
