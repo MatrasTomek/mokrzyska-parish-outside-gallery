@@ -16,7 +16,7 @@ const Service4_22 = () => {
 	// const pictureEnd = "";
 	const arrayOfPictures = [];
 
-	for (let i = 1; i < 16; i++) {
+	for (let i = 1; i < 33; i++) {
 		const picObj = {
 			id: i,
 			path: `/images/${catalogName}/${i}.jpg`,

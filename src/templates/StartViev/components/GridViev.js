@@ -20,7 +20,7 @@ const GridViev = () => {
 						<h4>
 							Uroczystość Chrystusa Króla oraz odznaczenie medalem Dei Regno Servire, Ludwika Lechowicza.
 						</h4>
-						<h4>Tarnów 19 XI 2022</h4>
+						<h4>Tarnów 20 XI 2022</h4>
 					</div>
 					<Link to="/medal-2022">
 						<Button name="zobacz" />

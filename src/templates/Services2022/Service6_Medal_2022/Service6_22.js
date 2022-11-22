@@ -40,7 +40,7 @@ const Service6_22 = () => {
 		<div className={styles.wrapper}>
 			<h3></h3>
 			<p>
-				W dniu 19 listopada 2022 roku w Uroczystość Chrystusa Króla Wszechświata w Katedrze Tarnowskiej o
+				W dniu 20 listopada 2022 roku w Uroczystość Chrystusa Króla Wszechświata w Katedrze Tarnowskiej o
 				godzinie 10.30 odbyła się Msza święta pod przewodnictwem JE księdza biskupa Andrzeja Jeża. Jest to
 				patronalne święto Akcji Katolickiej.
 			</p>
