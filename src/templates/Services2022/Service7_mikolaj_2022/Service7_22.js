@@ -3,7 +3,7 @@ import ItemImage from "../../../components/ImageItem/ItemImage";
 
 import styles from "../stylesForPic.module.scss";
 
-const Service2_22 = () => {
+const Service7_22 = () => {
 	const [modalOpen, setModalOpen] = useState(false);
 	const [pictureNo, setPictureNo] = useState(false);
 
@@ -13,11 +13,11 @@ const Service2_22 = () => {
 		console.log(e.target.id);
 	};
 
-	const catalogName = "fatima_2022";
+	const catalogName = "mikolaj_2022";
 	// const pictureEnd = "";
 	const arrayOfPictures = [];
 
-	for (let i = 1; i < 107; i++) {
+	for (let i = 1; i < 132; i++) {
 		const picObj = {
 			id: i,
 			path: `/images/${catalogName}/${i}.jpg`,
@@ -38,9 +38,12 @@ const Service2_22 = () => {
 	));
 	return (
 		<div className={styles.wrapper}>
-			<h3>Zakończenie Nabożeństw Fatimskich.</h3>
+			<h3>4 XII 2022r.</h3>
 
-			<p>Mokrzyska 13.10.2022 r.</p>
+			<p>
+				Przyjęcie aspirantów do Grona ministrantów, dziewczynek do Dziewczęcej Służby Maryjnej oraz spotkanie że
+				św. Mikołajem
+			</p>
 
 			{/* <h4></h4> */}
 
@@ -60,4 +63,4 @@ const Service2_22 = () => {
 	);
 };
 
-export default Service2_22;
+export default Service7_22;

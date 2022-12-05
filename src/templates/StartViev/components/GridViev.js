@@ -13,6 +13,24 @@ const GridViev = () => {
 					<div
 						className={styles.image}
 						style={{
+							backgroundImage: `url(images/mikolaj_2022/81.jpg)`,
+						}}
+					></div>
+					<div className={styles.info}>
+						<h4>4 XII 2022r.</h4>
+						<h4>
+							Przyjęcie aspirantów do Grona ministrantów, dziewczynek do Dziewczęcej Służby Maryjnej oraz
+							spotkanie że św. Mikołajem
+						</h4>
+					</div>
+					<Link to="/mikolaj-2022">
+						<Button name="zobacz" />
+					</Link>
+				</div>
+				<div className={styles.element}>
+					<div
+						className={styles.image}
+						style={{
 							backgroundImage: `url(images/medal_lechowicz_2022/18.jpg)`,
 						}}
 					></div>
@@ -70,20 +88,6 @@ const GridViev = () => {
 						</h4>
 					</div>
 					<Link to="/koncert-2022">
-						<Button name="zobacz" />
-					</Link>
-				</div>
-				<div className={styles.element}>
-					<div
-						className={styles.image}
-						style={{
-							backgroundImage: `url(images/fatima_2022/75.jpg)`,
-						}}
-					></div>
-					<div className={styles.info}>
-						<h4>Zakończenie Nabożeństw Fatimskich. Mokrzyska 13.10.2022r.</h4>
-					</div>
-					<Link to="/fatima-2022">
 						<Button name="zobacz" />
 					</Link>
 				</div>
