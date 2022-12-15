@@ -25,11 +25,14 @@ const BoxInformation = () => {
 		>
 			<div className={styles.inside}>
 				<div className={styles.info}>
-					{/* <h2>Piknik Parafialny 2022</h2> */}
+					<h2>SPOWIEDŹ PONIEDZIAŁEK 19 GRUDNIA</h2>
+					<p>14.30 – 15.45</p>
+					<p>16.15 – 17.30</p>
+					<h3>PRZERWA: od 15.45 do 16.15</h3>
 					{/* <Button name="przeczytaj" onClick={handleOnGoToSite} /> */}
-				</div>
-				<div className={styles.buttons}>
-					<Button name="zamknij" onClick={handleCloseButton} />
+					<div className={styles.buttons}>
+						<Button name="zamknij" onClick={handleCloseButton} />
+					</div>
 				</div>
 			</div>
 		</div>
