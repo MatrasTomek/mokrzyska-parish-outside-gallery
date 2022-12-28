@@ -4,7 +4,7 @@
   width: 100%;
   height: 100px;
   background-color: $second-color;
-  
+
 
 
   .inside {
@@ -100,7 +100,7 @@
     }
   }
 
-  @media screen and (min-width: map-get($breakpoins, xl)) {
+  @media screen and (min-width: map-get($breakpoins, xx)) {
     height: 100px;
 
     .inside {
@@ -127,7 +127,7 @@
             justify-content: flex-end;
 
             a {
-              width: 110px;
+              width: 9vw;
               font-weight: normal;
               font-size: $s-font-size;
 
@@ -142,26 +142,6 @@
     }
   }
 
-  @media screen and (min-width: map-get($breakpoins, xx)) {
-    height: 100px;
-
-    .inside {
-      .logo {
-        width: 90px;
-        height: 85px;
-      }
-
-      .navigation {
-        nav {
-          ul {
-            a {
-              width: 140px;
-            }
-          }
-        }
-      }
-    }
-  }
 }
 
 .isVisible {

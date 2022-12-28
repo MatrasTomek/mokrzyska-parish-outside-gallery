@@ -11,6 +11,7 @@ import Calling from "../templates/Calling/Calling";
 import Statut from "../templates/CmentaryStatut/Statut";
 import Transmition from "../templates/Transmition/Transmition";
 import Council from "../templates/Council/Council";
+import Priests from "../templates/Priests/Priests";
 
 import { Service1, Service7_22, Service3_22, Service4_22, Service5_22, Service6_22 } from "../templates/Services2022";
 import RodoViev from "../templates/RodoViev/RodoViev";
@@ -28,6 +29,7 @@ function MainSwitch() {
 				<Route path="/intencje-poza-parafia" component={IntentionsOver} />
 				<Route path="/regulamin" component={Statut} />
 				<Route path="/powolania" component={Calling} />
+				<Route path="/duszpasterze" component={Priests} />
 				<Route path="/transmisja" component={Transmition} />
 				<Route path="/rada" component={Council} />
 				<Route path="/naszKosciol" component={Service1} />

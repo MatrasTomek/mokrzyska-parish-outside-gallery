@@ -25,7 +25,7 @@
         display: flex;
         flex-direction: column;
         // background-color: rgba(0, 0, 0, 0.6);
-        background-image: url('../../assets/images/hand_640.jpg');
+        background-image: url('../../assets/images/bn_2022.jpg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -55,6 +55,15 @@
                 text-align: center;
                 margin-bottom: 20px;
                 font-weight: 700;
+                font-size: 14px;
+            }
+
+            p:nth-child(4) {
+                font-style: italic;
+            }
+
+            p:nth-child(6) {
+                font-style: italic;
             }
 
             .sign1,
@@ -99,13 +108,13 @@
     }
 
     @media screen and (min-width: map-get($breakpoins, sl)) {
-        width: 360px;
-        height: 90%;
+        // width: 360px;
+        height: 100%;
     }
 
     @media screen and (min-width: map-get($breakpoins, lm)) {
-
-        height: 60%;
+        width: 500px;
+        height: 70%;
 
 
         .inside {
