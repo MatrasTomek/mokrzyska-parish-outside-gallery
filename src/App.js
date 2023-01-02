@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import StoreProvider from "../src/Store/StoreProvider";
 
@@ -13,7 +13,9 @@ function App() {
 		<StoreProvider>
 			<Router>
 				<Navigation />
-				<MainSwitch />
+				<Fragment>
+					<MainSwitch />
+				</Fragment>
 				<Footer />
 				{/* <BoxInformation /> */}
 			</Router>

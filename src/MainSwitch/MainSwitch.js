@@ -1,5 +1,5 @@
 import React from "react";
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, Redirect } from "react-router-dom";
 
 import StartViev from "../templates/StartViev/StartViev";
 import Devotions from "../templates/Devotions/Devotions";
@@ -41,7 +41,8 @@ function MainSwitch() {
 				{/* <Route path="/temporary" component={Temporary} /> */}
 				<Route path="/rodo" component={RodoViev} />
 
-				{/* <Route component={ErrorPage} /> */}
+				<Route component={StartViev} />
+				<Redirect to="/" />
 			</Switch>
 		</>
 	);
