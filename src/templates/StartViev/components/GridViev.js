@@ -13,14 +13,28 @@ const GridViev = () => {
 					<div
 						className={styles.image}
 						style={{
+							backgroundImage: `url(images/swieta_2022/21.jpg)`,
+						}}
+					></div>
+					<div className={styles.info}>
+						<h4>Bożenarodzenie 2022.</h4>
+					</div>
+					<Link to="/swieta-2022">
+						<Button name="zobacz" />
+					</Link>
+				</div>
+				<div className={styles.element}>
+					<div
+						className={styles.image}
+						style={{
 							backgroundImage: `url(images/mikolaj_2022/81.jpg)`,
 						}}
 					></div>
 					<div className={styles.info}>
 						<h4>4 XII 2022r.</h4>
 						<h4>
-							Przyjęcie aspirantów do Grona ministrantów, dziewczynek do Dziewczęcej Służby Maryjnej oraz
-							spotkanie że św. Mikołajem
+							Przyjęcie aspirantów do Grona ministrantów, dziewczynek do Dziewczęcej Służby Maryjnej oraz spotkanie że św.
+							Mikołajem
 						</h4>
 					</div>
 					<Link to="/mikolaj-2022">
@@ -35,9 +49,7 @@ const GridViev = () => {
 						}}
 					></div>
 					<div className={styles.info}>
-						<h4>
-							Uroczystość Chrystusa Króla oraz odznaczenie medalem Dei Regno Servire, Ludwika Lechowicza.
-						</h4>
+						<h4>Uroczystość Chrystusa Króla oraz odznaczenie medalem Dei Regno Servire, Ludwika Lechowicza.</h4>
 						<h4>Tarnów 20 XI 2022</h4>
 					</div>
 					<Link to="/medal-2022">
@@ -71,23 +83,6 @@ const GridViev = () => {
 						<h4>Szczepanów 19 XI 2022.</h4>
 					</div>
 					<Link to="/lektorzy-2022">
-						<Button name="zobacz" />
-					</Link>
-				</div>
-				<div className={styles.element}>
-					<div
-						className={styles.image}
-						style={{
-							backgroundImage: `url(images/koncert_partiotyczny_2022/36.jpg)`,
-						}}
-					></div>
-					<div className={styles.info}>
-						<h4>
-							Koncert Patriotyczny w wykonaniu Młodzieżowej Orkiestry: CRUSHED SOUNDS BIG BAND pod
-							dyrekcją Pawła Swoszowskiego - 24.10.2022r.
-						</h4>
-					</div>
-					<Link to="/koncert-2022">
 						<Button name="zobacz" />
 					</Link>
 				</div>

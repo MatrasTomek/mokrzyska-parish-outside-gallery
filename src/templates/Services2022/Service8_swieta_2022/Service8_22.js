@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-import ItemImage from "../../../components/ImageItem/ItemImage";
+import React, { useState } from 'react';
+import ItemImage from '../../../components/ImageItem/ItemImage';
 
-import styles from "../stylesForPic.module.scss";
+import styles from '../stylesForPic.module.scss';
 
-const Service3_22 = () => {
+const Service8_22 = () => {
 	const [modalOpen, setModalOpen] = useState(false);
 	const [pictureNo, setPictureNo] = useState(false);
 
@@ -13,11 +13,11 @@ const Service3_22 = () => {
 		console.log(e.target.id);
 	};
 
-	const catalogName = "koncert_partiotyczny_2022";
+	const catalogName = 'swieta_2022';
 	// const pictureEnd = "";
 	const arrayOfPictures = [];
 
-	for (let i = 1; i < 61; i++) {
+	for (let i = 1; i < 24; i++) {
 		const picObj = {
 			id: i,
 			path: `/images/${catalogName}/${i}.jpg`,
@@ -38,13 +38,10 @@ const Service3_22 = () => {
 	));
 	return (
 		<div className={styles.wrapper}>
-			<h3>
-				W naszej świątyni odbył się Koncert Patriotyczny w wykonaniu Młodzieżowej Orkiestry: CRUSHED SOUNDS BIG
-				BAND pod dyrekcją Pawła Swoszowskiego. Koncert dofinansowany jest ze środków Powiatu Brzeskiego.
-			</h3>
-			<h2>„Otwieramy Polskie Serca”</h2>
+			<h3>Bożonarodzeniowy wystrój naszej świątyni.</h3>
+			{/* <h2>„Otwieramy Polskie Serca”</h2> */}
 
-			<p>Mokrzyska 24.10.2022r.</p>
+			{/* <p>Mokrzyska 24.10.2022r.</p> */}
 
 			<p>Galeria (kliknij na zdjecie aby powiększyć)</p>
 
@@ -62,4 +59,4 @@ const Service3_22 = () => {
 	);
 };
 
-export default Service3_22;
+export default Service8_22;
