@@ -3,7 +3,7 @@ import ItemImage from "../../../components/ImageItemNoCopy/ItemImage";
 
 import styles from "../stylesForPic.module.scss";
 
-const Service6_22 = () => {
+const Service1_23 = () => {
 	const [modalOpen, setModalOpen] = useState(false);
 	const [pictureNo, setPictureNo] = useState(false);
 
@@ -13,11 +13,11 @@ const Service6_22 = () => {
 		console.log(e.target.id);
 	};
 
-	const catalogName = "medal_lechowicz_2022";
+	const catalogName = "d_babci_2023";
 	// const pictureEnd = "";
 	const arrayOfPictures = [];
 
-	for (let i = 1; i < 32; i++) {
+	for (let i = 1; i < 102; i++) {
 		const picObj = {
 			id: i,
 			path: `/images/${catalogName}/${i}.jpg`,
@@ -39,21 +39,7 @@ const Service6_22 = () => {
 	return (
 		<div className={styles.wrapper}>
 			<h3></h3>
-			<p>
-				W dniu 20 listopada 2022 roku w Uroczystość Chrystusa Króla Wszechświata w Katedrze Tarnowskiej o
-				godzinie 10.30 odbyła się Msza święta pod przewodnictwem JE księdza biskupa Andrzeja Jeża. Jest to
-				patronalne święto Akcji Katolickiej.
-			</p>
-			<p>
-				W Eucharystii wzięli udział, przedstawiciele naszego Parafialnego Oddziału Akcji Katolickiej, Pani
-				Prezes Ewa Adamczyk oraz Asystent dekanalny, dekanatu Szczepanowskiego Ks. Stanisław Tokarski -
-				Proboszcz parafii Mokrzyska.
-			</p>
-			<p>
-				Podczas tej Eucharystii nasz parafanin Ludwik Lechowicz, został odznaczony medalem, Dei Regno Servire,
-				tzn. Służyć Krolestwu Bożemu. Gratulujemy Członkom Akcji Katolickiej oraz Panu Ludwikowi i życzymy
-				wytrwałości, Bożego błogosławieństwa oraz łaski zdrowia.
-			</p>
+			<p></p>
 
 			<p>Galeria (kliknij na zdjecie aby powiększyć)</p>
 
@@ -71,4 +57,4 @@ const Service6_22 = () => {
 	);
 };
 
-export default Service6_22;
+export default Service1_23;

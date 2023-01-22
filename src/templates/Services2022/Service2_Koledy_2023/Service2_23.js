@@ -3,7 +3,7 @@ import ItemImage from "../../../components/ImageItem/ItemImage";
 
 import styles from "../stylesForPic.module.scss";
 
-const Service5_22 = () => {
+const Service2_23 = () => {
 	const [modalOpen, setModalOpen] = useState(false);
 	const [pictureNo, setPictureNo] = useState(false);
 
@@ -13,11 +13,11 @@ const Service5_22 = () => {
 		console.log(e.target.id);
 	};
 
-	const catalogName = "forum_rad_2022";
+	const catalogName = "koncert_kolend_2023";
 	// const pictureEnd = "";
 	const arrayOfPictures = [];
 
-	for (let i = 1; i < 8; i++) {
+	for (let i = 1; i < 38; i++) {
 		const picObj = {
 			id: i,
 			path: `/images/${catalogName}/${i}.jpg`,
@@ -38,9 +38,9 @@ const Service5_22 = () => {
 	));
 	return (
 		<div className={styles.wrapper}>
-			<h3>Forum Parafialnych Rad Duszpasterskich.</h3>
+			<h3></h3>
 
-			<p>Tarnów 19 XI 2022.</p>
+			<p></p>
 
 			<p>Galeria (kliknij na zdjecie aby powiększyć)</p>
 
@@ -58,4 +58,4 @@ const Service5_22 = () => {
 	);
 };
 
-export default Service5_22;
+export default Service2_23;

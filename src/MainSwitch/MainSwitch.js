@@ -13,7 +13,7 @@ import Transmition from "../templates/Transmition/Transmition";
 import Council from "../templates/Council/Council";
 import Priests from "../templates/Priests/Priests";
 
-import { Service1, Service7_22, Service8_22, Service4_22, Service5_22, Service6_22 } from '../templates/Services2022';
+import { Service1, Service7_22, Service8_22, Service2_23, Service1_23, Service4_22, Service6_22 } from '../templates/Services2022';
 import RodoViev from "../templates/RodoViev/RodoViev";
 // import Temporary from "../templates/Temporary/Temporary";
 
@@ -36,8 +36,8 @@ function MainSwitch() {
 				<Route path="/mikolaj-2022" component={Service7_22} />
 				<Route path="/swieta-2022" component={Service8_22} />
 				<Route path="/lektorzy-2022" component={Service4_22} />
-				<Route path="/forum-rad-2022" component={Service5_22} />
-				<Route path="/medal-2022" component={Service6_22} />
+				<Route path="/dzien-babci" component={Service1_23} />
+				<Route path="/kolendy-2023" component={Service2_23} />
 				{/* <Route path="/temporary" component={Temporary} /> */}
 				<Route path="/rodo" component={RodoViev} />
 
