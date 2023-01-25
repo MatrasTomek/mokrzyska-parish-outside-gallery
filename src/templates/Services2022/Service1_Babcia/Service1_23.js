@@ -38,8 +38,8 @@ const Service1_23 = () => {
 	));
 	return (
 		<div className={styles.wrapper}>
-			<h3></h3>
-			<p></p>
+			<h3>Dzień Babci i Dziadka 2023</h3>
+			<p>W sobotę 21 stycznia w naszej parafii obchodziliśmy Dzień Babci i Dziadka. Uroczystości rozpoczęła Msza święta pod przewodnictwem Ks. Proboszcza, o oprawę której zadbali nauczyciele naszego Przedszkola Parafialnego na czele z Panem Andrzejem Gicalą. Po Mszy świętej zaprezentowały się dzieci z programem artystyczno-muzycznym. Następnie Ks. Proboszcz wyraził podziękowania wobec małych wykonawców i nauczycieli przygotowujących program muzyczny. Następnie Pani Dyrektor Przedszkola złożyła serdeczne życzenia dla wszystkich dziadków. Mali artyści otrzymali gromkie brawa od swoich dziadków. Po zakończeniu programu dziadkowie otrzymali drobny upominek od swoich wnucząt.  </p>
 
 			<p>Galeria (kliknij na zdjecie aby powiększyć)</p>
 

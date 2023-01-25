@@ -38,9 +38,9 @@ const Service2_23 = () => {
 	));
 	return (
 		<div className={styles.wrapper}>
-			<h3></h3>
+			<h3>Koncert kolęd i pastorałek</h3>
 
-			<p></p>
+			<p>W niedzielę 22 stycznia 2023 roku w naszym kościele odbył się koncert kolęd i pastorałek w wykonaniu zespołu "Ewenement" z Niedomic. Zespół zaangażował się w oprawę muzyczną liturgii Mszy świętej a po jej zakończeniu odbył się 30 minutowy koncert. Dziękujemy parafianom i gościom za tak liczne przybycie.</p>
 
 			<p>Galeria (kliknij na zdjecie aby powiększyć)</p>
 

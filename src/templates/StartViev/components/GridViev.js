@@ -17,7 +17,7 @@ const GridViev = () => {
 						}}
 					></div>
 					<div className={styles.info}>
-						<h4>kolendy_2023</h4>
+						<h4>Koncert kolęd i pastorałek</h4>
 						<h4></h4>
 					</div>
 					<Link to="/kolendy-2023">
@@ -32,7 +32,7 @@ const GridViev = () => {
 						}}
 					></div>
 					<div className={styles.info}>
-						<h4>D. babci</h4>
+						<h4>Dzień Babci i Dziadka 2023</h4>
 						<h4></h4>
 					</div>
 					<Link to="/dzien-babci">
