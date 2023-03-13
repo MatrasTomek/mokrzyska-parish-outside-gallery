@@ -7,7 +7,7 @@ const Office = () => {
         <div className={styles.title}>
           <h1>Kancelaria</h1>
           <h3>Godziny urzędowania:</h3>
-          <p>codziennie 18.30 – 19.00</p>
+          <p>codziennie po Mszy Św. wieczornej do 19.00</p>
           <p>w soboty, niedziele i święta zamknięte</p>
         </div>
         <div className={styles.item}>
