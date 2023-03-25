@@ -21,7 +21,7 @@ import {
   Service6_23,
 } from "../templates/Services2022";
 import RodoViev from "../templates/RodoViev/RodoViev";
-// import Temporary from "../templates/Temporary/Temporary";
+import Temporary from "../templates/Temporary/Temporary";
 
 function MainSwitch() {
   return (
@@ -43,7 +43,7 @@ function MainSwitch() {
         <Route path="/plac-zabaw" component={Service6_23} />
         <Route path="/dzien-babci" component={Service1_23} />
         <Route path="/kolendy-2023" component={Service2_23} />
-        {/* <Route path="/temporary" component={Temporary} /> */}
+        <Route path="/temporary" component={Temporary} />
         <Route path="/rodo" component={RodoViev} />
         <Route component={StartViev} />
         <Redirect to="/" />

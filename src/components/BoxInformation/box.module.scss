@@ -1,134 +1,121 @@
 @import "../../Root/common.scss";
 
-
 .wrapper {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 95%;
-    height: 80%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 95%;
+  height: 80%;
 
-    background-color: $second-color;
-    border: 2px solid $third-color;
-    border-radius: 10px;
-    // padding: 20px;
-    z-index: 10;
-    // background-position: center;
-    // background-size: 100%;
-    // background-repeat: no-repeat;
+  background-color: $second-color;
+  border: 2px solid $third-color;
+  border-radius: 10px;
+  // padding: 20px;
+  z-index: 10;
+  // background-position: center;
+  // background-size: 100%;
+  // background-repeat: no-repeat;
+
+  .inside {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    // background-color: rgba(0, 0, 0, 0.8);
+    background-image: url("../../assets/images/book_1280.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .info {
+      width: 100%;
+      height: 100%;
+      border-radius: 5px;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: rgba(0, 0, 0, 0.5);
+
+      h3,
+      h2 {
+        margin-bottom: 20px;
+        text-align: center;
+        color: white;
+      }
+
+      p {
+        color: white;
+        text-align: center;
+        margin-bottom: 20px;
+        font-weight: 700;
+        font-size: 14px;
+      }
+
+      p:nth-child(4) {
+        font-style: italic;
+      }
+
+      p:nth-child(6) {
+        font-style: italic;
+      }
+
+      .sign1,
+      .sign2 {
+        width: 100%;
+        margin: 10px auto;
+        text-align: right;
+      }
+
+      button {
+        width: 120px;
+        height: 60px;
+        margin-top: 40px;
+      }
+
+      .buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: 4%;
+        margin: 10px auto;
+      }
+    }
+  }
+
+  @media screen and (orientation: landscape) {
+    width: 90%;
+    height: 100%;
 
     .inside {
-        width: 100%;
-        height: 100%;
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-        // background-color: rgba(0, 0, 0, 0.6);
-        background-image: url('../../assets/images/bn_2022.jpg');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-
-        .info {
-            width: 100%;
-            height: 100%;
-            border-radius: 5px;
-            padding: 10px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            background-color: rgba(0, 0, 0, 0.5);
-
-
-            h3,
-            h2 {
-                margin-bottom: 20px;
-                text-align: center;
-                color: white;
-            }
-
-
-            p {
-                color: white;
-                text-align: center;
-                margin-bottom: 20px;
-                font-weight: 700;
-                font-size: 14px;
-            }
-
-            p:nth-child(4) {
-                font-style: italic;
-            }
-
-            p:nth-child(6) {
-                font-style: italic;
-            }
-
-            .sign1,
-            .sign2 {
-                width: 100%;
-                margin: 10px auto;
-                text-align: right;
-            }
-
-            // button {
-            //     width: 120px;
-            //     margin-top: 40px;
-            // }
-
-            .buttons {
-
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                width: 90%;
-                height: 4%;
-                margin: 10px auto;
-            }
-        }
-
-
-    }
-
-
-    @media screen and (orientation: landscape) {
+      img {
         width: 90%;
-        height: 100%;
+        margin: 0 auto;
+      }
+    }
+  }
 
-        .inside {
+  @media screen and (min-width: map-get($breakpoins, sl)) {
+    // width: 360px;
+    height: 100%;
+  }
 
+  @media screen and (min-width: map-get($breakpoins, lm)) {
+    width: 600px;
+    height: 70%;
 
-            img {
-                width: 90%;
-                margin: 0 auto;
-            }
+    .inside {
+      .info {
+        padding: 25px;
+
+        p {
+          font-size: 20px;
         }
+      }
     }
-
-    @media screen and (min-width: map-get($breakpoins, sl)) {
-        // width: 360px;
-        height: 100%;
-    }
-
-    @media screen and (min-width: map-get($breakpoins, lm)) {
-        width: 500px;
-        height: 70%;
-
-
-        .inside {
-
-
-            .info {
-                padding: 25px;
-
-                p {
-                    font-size: 18px;
-                }
-            }
-        }
-    }
-
-
+  }
 }
