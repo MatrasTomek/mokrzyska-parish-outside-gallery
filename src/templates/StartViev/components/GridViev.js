@@ -13,11 +13,29 @@ const GridViev = () => {
           <div
             className={styles.image}
             style={{
+              backgroundImage: `url(images/plac_zabaw_2023/11.jpg)`,
+            }}
+          ></div>
+          <div className={styles.info}>
+            <h4>
+              Otwarcie i poświęcenie nowego urządzenia na placu zabaw w
+              Przedszkolu
+            </h4>
+            <h4></h4>
+          </div>
+          <Link to="/plac-zabaw">
+            <Button name="zobacz" />
+          </Link>
+        </div>
+        <div className={styles.element}>
+          <div
+            className={styles.image}
+            style={{
               backgroundImage: `url(images/rocznicz_p.Koczwary_2023/34.jpg)`,
             }}
           ></div>
           <div className={styles.info}>
-            <h4></h4>
+            <h4>134 rocznica urodzin płk. Józefa Koczwary</h4>
             <h4></h4>
           </div>
           <Link to="/rocznica-plk-koczwara">
@@ -51,38 +69,6 @@ const GridViev = () => {
             <h4></h4>
           </div>
           <Link to="/dzien-babci">
-            <Button name="zobacz" />
-          </Link>
-        </div>
-        <div className={styles.element}>
-          <div
-            className={styles.image}
-            style={{
-              backgroundImage: `url(images/swieta_2022/21.jpg)`,
-            }}
-          ></div>
-          <div className={styles.info}>
-            <h4>Bożenarodzenie 2022.</h4>
-          </div>
-          <Link to="/swieta-2022">
-            <Button name="zobacz" />
-          </Link>
-        </div>
-        <div className={styles.element}>
-          <div
-            className={styles.image}
-            style={{
-              backgroundImage: `url(images/mikolaj_2022/81.jpg)`,
-            }}
-          ></div>
-          <div className={styles.info}>
-            <h4>4 XII 2022r.</h4>
-            <h4>
-              Przyjęcie aspirantów do Grona ministrantów, dziewczynek do
-              Dziewczęcej Służby Maryjnej oraz spotkanie że św. Mikołajem
-            </h4>
-          </div>
-          <Link to="/mikolaj-2022">
             <Button name="zobacz" />
           </Link>
         </div>
