@@ -14,9 +14,9 @@ const BoxInformation = () => {
     setFlag(false);
   };
 
-  // const handleCloseButton = () => {
-  // 	setFlag(false);
-  // };
+  const handleCloseButton = () => {
+    setFlag(false);
+  };
   return (
     <div
       className={styles.wrapper}
@@ -35,9 +35,9 @@ const BoxInformation = () => {
             Profesor Uniwersytetu Kardynała Stefana Wyszyńskiego w Warszawie
           </p>
           <Button name="zobacz program rekolekcji" onClick={handleOnGoToSite} />
-          {/* <div className={styles.buttons}>
-						<Button name="zamknij" onClick={handleCloseButton} />
-					</div> */}
+          <div className={styles.buttons}>
+            <Button name="zamknij" onClick={handleCloseButton} />
+          </div>
         </div>
       </div>
     </div>

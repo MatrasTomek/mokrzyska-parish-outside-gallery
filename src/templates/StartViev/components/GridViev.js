@@ -13,6 +13,21 @@ const GridViev = () => {
           <div
             className={styles.image}
             style={{
+              backgroundImage: `url(images/rekolekcje_wlp_2023/10.jpg)`,
+            }}
+          ></div>
+          <div className={styles.info}>
+            <h4>Rekolekcje Wielkopostne Przedszkolaków - 2023</h4>
+            <h4></h4>
+          </div>
+          <Link to="/rekolekcje-przedszkole">
+            <Button name="zobacz" />
+          </Link>
+        </div>
+        <div className={styles.element}>
+          <div
+            className={styles.image}
+            style={{
               backgroundImage: `url(images/plac_zabaw_2023/11.jpg)`,
             }}
           ></div>
@@ -54,21 +69,6 @@ const GridViev = () => {
             <h4></h4>
           </div>
           <Link to="/kolendy-2023">
-            <Button name="zobacz" />
-          </Link>
-        </div>
-        <div className={styles.element}>
-          <div
-            className={styles.image}
-            style={{
-              backgroundImage: `url(images/d_babci_2023/53.jpg)`,
-            }}
-          ></div>
-          <div className={styles.info}>
-            <h4>Dzień Babci i Dziadka 2023</h4>
-            <h4></h4>
-          </div>
-          <Link to="/dzien-babci">
             <Button name="zobacz" />
           </Link>
         </div>
