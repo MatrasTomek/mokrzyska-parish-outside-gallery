@@ -28,6 +28,21 @@ const GridViev = () => {
           <div
             className={styles.image}
             style={{
+              backgroundImage: `url(images/zawody_1_2023/8.jpg)`,
+            }}
+          ></div>
+          <div className={styles.info}>
+            <h4>Dekanalny Turniej Piłki Nożnej Halowej.</h4>
+            <h4> Borzęcin 25 III 2023.</h4>
+          </div>
+          <Link to="/turniej-borzecin">
+            <Button name="zobacz" />
+          </Link>
+        </div>
+        <div className={styles.element}>
+          <div
+            className={styles.image}
+            style={{
               backgroundImage: `url(images/plac_zabaw_2023/11.jpg)`,
             }}
           ></div>
