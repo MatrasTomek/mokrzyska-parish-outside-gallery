@@ -15,11 +15,11 @@ import Priests from "../templates/Priests/Priests";
 
 import {
   Service1,
-  Service2_23,
   Service1_23,
+  Service2_23,
+  Service3_23,
+  Service4_23,
   Service5_23,
-  Service6_23,
-  Service7_23,
 } from "../templates/Services2022";
 import RodoViev from "../templates/RodoViev/RodoViev";
 import Temporary from "../templates/Temporary/Temporary";
@@ -40,11 +40,11 @@ function MainSwitch() {
         <Route path="/transmisja" component={Transmition} />
         <Route path="/rada" component={Council} />
         <Route path="/naszKosciol" component={Service1} />
-        <Route path="/rocznica-plk-koczwara" component={Service5_23} />
-        <Route path="/plac-zabaw" component={Service6_23} />
-        <Route path="/turniej-borzecin" component={Service7_23} />
-        <Route path="/rekolekcje-przedszkole" component={Service1_23} />
-        <Route path="/kolendy-2023" component={Service2_23} />
+        <Route path="/rocznica-plk-koczwara" component={Service1_23} />
+        <Route path="/plac-zabaw" component={Service2_23} />
+        <Route path="/turniej-borzecin" component={Service3_23} />
+        <Route path="/rekolekcje-przedszkole" component={Service4_23} />
+        <Route path="/niedziela-palmowa" component={Service5_23} />
         <Route path="/temporary" component={Temporary} />
         <Route path="/rodo" component={RodoViev} />
         <Route component={StartViev} />

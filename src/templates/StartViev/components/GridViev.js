@@ -13,6 +13,21 @@ const GridViev = () => {
           <div
             className={styles.image}
             style={{
+              backgroundImage: `url(images/n_palmowa_2023/8.jpg)`,
+            }}
+          ></div>
+          <div className={styles.info}>
+            <h4>Niedzeila Palmowa</h4>
+            <h4></h4>
+          </div>
+          <Link to="/niedziela-palmowa">
+            <Button name="zobacz" />
+          </Link>
+        </div>
+        <div className={styles.element}>
+          <div
+            className={styles.image}
+            style={{
               backgroundImage: `url(images/rekolekcje_wlp_2023/10.jpg)`,
             }}
           ></div>
@@ -69,21 +84,6 @@ const GridViev = () => {
             <h4></h4>
           </div>
           <Link to="/rocznica-plk-koczwara">
-            <Button name="zobacz" />
-          </Link>
-        </div>
-        <div className={styles.element}>
-          <div
-            className={styles.image}
-            style={{
-              backgroundImage: `url(images/koncert_kolend_2023/2.jpg)`,
-            }}
-          ></div>
-          <div className={styles.info}>
-            <h4>Koncert kolęd i pastorałek</h4>
-            <h4></h4>
-          </div>
-          <Link to="/kolendy-2023">
             <Button name="zobacz" />
           </Link>
         </div>

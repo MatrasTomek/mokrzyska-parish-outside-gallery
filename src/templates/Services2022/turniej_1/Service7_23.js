@@ -3,20 +3,21 @@ import ItemImage from "../../../components/ImageItem/ItemImage";
 
 import styles from "../stylesForPic.module.scss";
 
-const Service16_22 = () => {
+const Service7_23 = () => {
   const [modalOpen, setModalOpen] = useState(false);
   const [pictureNo, setPictureNo] = useState(false);
 
   const handleShowPicture = (e) => {
     setModalOpen(true);
     setPictureNo(Number(e.target.id));
+    console.log(e.target.id);
   };
 
-  const catalogName = "church";
+  const catalogName = "zawody_1_2023";
   // const pictureEnd = "";
   const arrayOfPictures = [];
 
-  for (let i = 1; i < 74; i++) {
+  for (let i = 1; i < 24; i++) {
     const picObj = {
       id: i,
       path: `/images/${catalogName}/${i}.jpg`,
@@ -37,7 +38,14 @@ const Service16_22 = () => {
   ));
   return (
     <div className={styles.wrapper}>
-      <h3>Kościół w Mokrzyskach - wnętrze i okolica</h3>
+      <h3>Dekanalny Turniej Piłki Nożnej Halowej.</h3>
+
+      <p>
+        Prawie jak Barcelona, ale to nasi ministraci i lektorzy podczas
+        Dekanalnego Turnieju Piłki nożnej halowej. Dbając o ducha i niepominamy
+        o ciele. Wszak w zdrowym ciele zdrowy duch. Gratulujemy im zdobycia II i
+        III miejsc
+      </p>
 
       <p>Galeria (kliknij na zdjecie aby powiększyć)</p>
 
@@ -55,4 +63,4 @@ const Service16_22 = () => {
   );
 };
 
-export default Service16_22;
+export default Service7_23;
