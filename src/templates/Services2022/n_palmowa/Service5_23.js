@@ -17,7 +17,7 @@ const Service5_23 = () => {
   // const pictureEnd = "";
   const arrayOfPictures = [];
 
-  for (let i = 1; i < 101; i++) {
+  for (let i = 1; i < 145; i++) {
     const picObj = {
       id: i,
       path: `/images/${catalogName}/${i}.jpg`,
@@ -39,7 +39,20 @@ const Service5_23 = () => {
   return (
     <div className={styles.wrapper}>
       <h3>Niedziela Palmowa - 2023</h3>
-      <p></p>
+      <p>
+        Wielki Tydzień rozpoczęliśmy Niedzielą Palmową. O godzinie 10.30 bardzo
+        licznie zgromadziliśmy się na placu kościelnym, gdzie rozpoczęła się
+        Eucharystia i wyruszyliśmy na uroczystą procesję wokół kościoła. Rodzice
+        wraz z dziećmi przygotowali na tą okoliczność pięknie ozdobione palmy
+        wielkanocne. Po Mszy świętej odbył się konkurs na największą i
+        najpiękniejszą palmę.Jury konkursowe wyłoniło zwycięzców 1,2,3 miejsca i
+        rozdało nagrody.Pozostałe dzieci również otrzymały nagrody w postaci
+        słodkości.
+      </p>
+      <p>
+        Wszystkim gratulujemy! Bardzo dziękujemy za zaangażowanie wszystkim
+        rodzicom, dziadkom i dzieciom
+      </p>
 
       <p>Galeria (kliknij na zdjecie aby powiększyć)</p>
 

@@ -17,7 +17,7 @@ const GridViev = () => {
             }}
           ></div>
           <div className={styles.info}>
-            <h4>Niedzeila Palmowa</h4>
+            <h4>Niedziela Palmowa</h4>
             <h4></h4>
           </div>
           <Link to="/niedziela-palmowa">
