@@ -24,7 +24,7 @@
     display: flex;
     flex-direction: column;
     // background-color: rgba(0, 0, 0, 0.8);
-    background-image: url("../../assets/images/book_1280.jpg");
+    background-image: url("../../assets/images/clouds_1280.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -41,7 +41,8 @@
       background-color: rgba(0, 0, 0, 0.5);
 
       h3,
-      h2 {
+      h2,
+      h1 {
         margin-bottom: 20px;
         text-align: center;
         color: white;
@@ -55,11 +56,10 @@
         font-size: 14px;
       }
 
+      p:nth-child(3),
       p:nth-child(4) {
-        font-style: italic;
-      }
-
-      p:nth-child(6) {
+        width: 100%;
+        text-align: right;
         font-style: italic;
       }
 
@@ -72,7 +72,7 @@
 
       button {
         width: 120px;
-        height: 60px;
+        height: 30px;
         margin-top: 40px;
       }
 

@@ -45,7 +45,7 @@ function MainSwitch() {
         <Route path="/turniej-borzecin" component={Service3_23} />
         <Route path="/rekolekcje-przedszkole" component={Service4_23} />
         <Route path="/niedziela-palmowa" component={Service5_23} />
-        <Route path="/temporary" component={Temporary} />
+        {/* <Route path="/temporary" component={Temporary} /> */}
         <Route path="/rodo" component={RodoViev} />
         <Route component={StartViev} />
         <Redirect to="/" />
