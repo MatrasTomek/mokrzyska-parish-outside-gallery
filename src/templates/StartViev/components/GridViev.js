@@ -13,6 +13,36 @@ const GridViev = () => {
           <div
             className={styles.image}
             style={{
+              backgroundImage: `url(images/wielkanoc_wystroj_2023/1.jpg)`,
+            }}
+          ></div>
+          <div className={styles.info}>
+            <h4>Wielkanoc 2023 - wystrój Kościoła</h4>
+            <h4></h4>
+          </div>
+          <Link to="/wystroj_23">
+            <Button name="zobacz" />
+          </Link>
+        </div>
+        <div className={styles.element}>
+          <div
+            className={styles.image}
+            style={{
+              backgroundImage: `url(images/wielki_piatek_2023/4.jpg)`,
+            }}
+          ></div>
+          <div className={styles.info}>
+            <h4>Triduum Paschalne, Mokrzyska 2023 - Wielki Piątek</h4>
+            <h4></h4>
+          </div>
+          <Link to="/w_piatek_23">
+            <Button name="zobacz" />
+          </Link>
+        </div>
+        <div className={styles.element}>
+          <div
+            className={styles.image}
+            style={{
               backgroundImage: `url(images/n_palmowa_2023/8.jpg)`,
             }}
           ></div>
@@ -69,21 +99,6 @@ const GridViev = () => {
             <h4></h4>
           </div>
           <Link to="/plac-zabaw">
-            <Button name="zobacz" />
-          </Link>
-        </div>
-        <div className={styles.element}>
-          <div
-            className={styles.image}
-            style={{
-              backgroundImage: `url(images/rocznicz_p.Koczwary_2023/34.jpg)`,
-            }}
-          ></div>
-          <div className={styles.info}>
-            <h4>134 rocznica urodzin płk. Józefa Koczwary</h4>
-            <h4></h4>
-          </div>
-          <Link to="/rocznica-plk-koczwara">
             <Button name="zobacz" />
           </Link>
         </div>

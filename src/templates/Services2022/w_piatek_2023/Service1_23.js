@@ -3,7 +3,7 @@ import ItemImage from "../../../components/ImageItem/ItemImage";
 
 import styles from "../stylesForPic.module.scss";
 
-const Service6_22 = () => {
+const Service1_23 = () => {
   const [modalOpen, setModalOpen] = useState(false);
   const [pictureNo, setPictureNo] = useState(false);
 
@@ -13,11 +13,11 @@ const Service6_22 = () => {
     console.log(e.target.id);
   };
 
-  const catalogName = "plac_zabaw_2023";
+  const catalogName = "wielki_piatek_2023";
   // const pictureEnd = "";
   const arrayOfPictures = [];
 
-  for (let i = 1; i < 33; i++) {
+  for (let i = 1; i < 71; i++) {
     const picObj = {
       id: i,
       path: `/images/${catalogName}/${i}.jpg`,
@@ -38,25 +38,8 @@ const Service6_22 = () => {
   ));
   return (
     <div className={styles.wrapper}>
-      <h3>
-        Otwarcie i poświęcenie nowego urządzenia na placu zabaw w Przedszkolu.
-      </h3>
-      {/* <h2></h2> */}
-
-      <p>
-        21 marca 2023 roku w Publicznym Przedszkolu Parafialnym w Mokrzyskach,
-        obyło się uroczyste powitanie wiosny przez dzieci z poszczególnych grup.
-        Przedszkolaki wesołą zabawą pożegnały zimę. Słychać było radosne okrzyki
-        „Witaj Wiosno!”. Natomiast dzień 22 marzec, był dniem dla wszystkich
-        wyjątkowo radosnym, ponieważ Pani Dyrektor i ks. Proboszcz dokonali
-        uroczystego otwarcia i poświęcenia nowego, wymarzonego urządzenia na
-        placu zabaw. Spełniło się marzenie wielu dzieci, nauczycieli i rodziców.
-        Przedszkolaki będą mogły miło i bezpiecznie spędzać czas na świeżym
-        powietrzu. Przez zabawę, nauka stanie się przyjemniejsza. Kolorowy i
-        bezpieczny sprzęt, pozwoli dzieciom urozmaicać czas, a także zaspokoić
-        potrzeby ruchowe. Radość i uśmiech na twarzach przedszkolaków były
-        największym podziękowaniem.
-      </p>
+      <h3>Triduum Paschalne, Mokrzyska 2023 - Wielki Piątek</h3>
+      <p>Liturgia Męki Pańskiej</p>
 
       <p>Galeria (kliknij na zdjecie aby powiększyć)</p>
 
@@ -74,4 +57,4 @@ const Service6_22 = () => {
   );
 };
 
-export default Service6_22;
+export default Service1_23;

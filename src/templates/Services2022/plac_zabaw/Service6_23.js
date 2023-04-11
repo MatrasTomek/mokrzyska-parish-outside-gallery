@@ -3,20 +3,21 @@ import ItemImage from "../../../components/ImageItem/ItemImage";
 
 import styles from "../stylesForPic.module.scss";
 
-const Service5_2023 = () => {
+const Service6_23 = () => {
   const [modalOpen, setModalOpen] = useState(false);
   const [pictureNo, setPictureNo] = useState(false);
 
   const handleShowPicture = (e) => {
     setModalOpen(true);
     setPictureNo(Number(e.target.id));
+    console.log(e.target.id);
   };
 
-  const catalogName = "rocznicz_p.Koczwary_2023";
+  const catalogName = "plac_zabaw_2023";
   // const pictureEnd = "";
   const arrayOfPictures = [];
 
-  for (let i = 1; i < 46; i++) {
+  for (let i = 1; i < 33; i++) {
     const picObj = {
       id: i,
       path: `/images/${catalogName}/${i}.jpg`,
@@ -37,18 +38,24 @@ const Service5_2023 = () => {
   ));
   return (
     <div className={styles.wrapper}>
-      <h3>134 rocznica urodzin płk. Józefa Koczwary</h3>
+      <h3>
+        Otwarcie i poświęcenie nowego urządzenia na placu zabaw w Przedszkolu.
+      </h3>
+      {/* <h2></h2> */}
 
       <p>
-        W dniu 12 marca 2023 roku w naszej wspólnocie parafialnej gościliśmy
-        Szanownych Żołnierzy przedstawicieli 1 Batalionowi Czołgów imienia płk.
-        Józefa Koczwary z Żurawicy, na czele z dowódcą podpułkownikiem Rafałem
-        Kluzą i ich kapelanem księdzem Włodzimierzem Skoczeniem. Żołnierze
-        modlili się w intencji swego patrona, a naszego rodaka z okazji 134
-        rocznicy urodzin. Mszy świętej przewodniczył kapelan Włodzimierz Skoczeń
-        a kazanie wygłosił ks. Proboszcz - Stanisław Tokarski. Na koniec Mszy
-        świętej, Ks. Proboszcz podziękował żołnierzom i rodzinie zmarłego Józefa
-        Koczwary za przybycie, wspólną modlitwę i pamięć o swoim patronie.{" "}
+        21 marca 2023 roku w Publicznym Przedszkolu Parafialnym w Mokrzyskach,
+        obyło się uroczyste powitanie wiosny przez dzieci z poszczególnych grup.
+        Przedszkolaki wesołą zabawą pożegnały zimę. Słychać było radosne okrzyki
+        „Witaj Wiosno!”. Natomiast dzień 22 marzec, był dniem dla wszystkich
+        wyjątkowo radosnym, ponieważ Pani Dyrektor i ks. Proboszcz dokonali
+        uroczystego otwarcia i poświęcenia nowego, wymarzonego urządzenia na
+        placu zabaw. Spełniło się marzenie wielu dzieci, nauczycieli i rodziców.
+        Przedszkolaki będą mogły miło i bezpiecznie spędzać czas na świeżym
+        powietrzu. Przez zabawę, nauka stanie się przyjemniejsza. Kolorowy i
+        bezpieczny sprzęt, pozwoli dzieciom urozmaicać czas, a także zaspokoić
+        potrzeby ruchowe. Radość i uśmiech na twarzach przedszkolaków były
+        największym podziękowaniem.
       </p>
 
       <p>Galeria (kliknij na zdjecie aby powiększyć)</p>
@@ -67,4 +74,4 @@ const Service5_2023 = () => {
   );
 };
 
-export default Service5_2023;
+export default Service6_23;

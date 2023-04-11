@@ -1,1 +1,1 @@
-export { default } from "./Service6_22";
+export { default } from "./Service6_23";
