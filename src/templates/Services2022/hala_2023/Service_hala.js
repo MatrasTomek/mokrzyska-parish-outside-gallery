@@ -3,7 +3,7 @@ import ItemImage from "../../../components/ImageItem/ItemImage";
 
 import styles from "../stylesForPic.module.scss";
 
-const Service6_23 = () => {
+const Service_hala = () => {
   const [modalOpen, setModalOpen] = useState(false);
   const [pictureNo, setPictureNo] = useState(false);
 
@@ -13,11 +13,11 @@ const Service6_23 = () => {
     console.log(e.target.id);
   };
 
-  const catalogName = "plac_zabaw_2023";
+  const catalogName = "hala_2023";
   // const pictureEnd = "";
   const arrayOfPictures = [];
 
-  for (let i = 1; i < 33; i++) {
+  for (let i = 1; i < 44; i++) {
     const picObj = {
       id: i,
       path: `/images/${catalogName}/${i}.jpg`,
@@ -39,24 +39,9 @@ const Service6_23 = () => {
   return (
     <div className={styles.wrapper}>
       <h3>
-        Otwarcie i poświęcenie nowego urządzenia na placu zabaw w Przedszkolu.
+        WUroczystość oddania i poświęcenia Hali sportowej w Mokrzyskach. 13 IV
+        2023 rok.
       </h3>
-      {/* <h2></h2> */}
-
-      <p>
-        21 marca 2023 roku w Publicznym Przedszkolu Parafialnym w Mokrzyskach,
-        obyło się uroczyste powitanie wiosny przez dzieci z poszczególnych grup.
-        Przedszkolaki wesołą zabawą pożegnały zimę. Słychać było radosne okrzyki
-        „Witaj Wiosno!”. Natomiast dzień 22 marzec, był dniem dla wszystkich
-        wyjątkowo radosnym, ponieważ Pani Dyrektor i ks. Proboszcz dokonali
-        uroczystego otwarcia i poświęcenia nowego, wymarzonego urządzenia na
-        placu zabaw. Spełniło się marzenie wielu dzieci, nauczycieli i rodziców.
-        Przedszkolaki będą mogły miło i bezpiecznie spędzać czas na świeżym
-        powietrzu. Przez zabawę, nauka stanie się przyjemniejsza. Kolorowy i
-        bezpieczny sprzęt, pozwoli dzieciom urozmaicać czas, a także zaspokoić
-        potrzeby ruchowe. Radość i uśmiech na twarzach przedszkolaków były
-        największym podziękowaniem.
-      </p>
 
       <p>Galeria (kliknij na zdjecie aby powiększyć)</p>
 
@@ -74,4 +59,4 @@ const Service6_23 = () => {
   );
 };
 
-export default Service6_23;
+export default Service_hala;
