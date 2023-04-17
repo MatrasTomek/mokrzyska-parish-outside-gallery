@@ -13,6 +13,20 @@ const GridViev = () => {
           <div
             className={styles.image}
             style={{
+              backgroundImage: `url(images/medale_caritas_2023/9.jpg)`,
+            }}
+          ></div>
+          <div className={styles.info}>
+            <h4>Diecezjalne Święto Caritas</h4>
+          </div>
+          <Link to="/caritas_23">
+            <Button name="zobacz" />
+          </Link>
+        </div>
+        <div className={styles.element}>
+          <div
+            className={styles.image}
+            style={{
               backgroundImage: `url(images/hala_2023/42.jpg)`,
             }}
           ></div>

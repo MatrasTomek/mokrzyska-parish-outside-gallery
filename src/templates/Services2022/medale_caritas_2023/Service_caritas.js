@@ -3,7 +3,7 @@ import ItemImage from "../../../components/ImageItem/ItemImage";
 
 import styles from "../stylesForPic.module.scss";
 
-const Service_hala = () => {
+const Service_caritas = () => {
   const [modalOpen, setModalOpen] = useState(false);
   const [pictureNo, setPictureNo] = useState(false);
 
@@ -13,11 +13,11 @@ const Service_hala = () => {
     console.log(e.target.id);
   };
 
-  const catalogName = "hala_2023";
+  const catalogName = "medale_caritas_2023";
   // const pictureEnd = "";
   const arrayOfPictures = [];
 
-  for (let i = 1; i < 44; i++) {
+  for (let i = 1; i < 26; i++) {
     const picObj = {
       id: i,
       path: `/images/${catalogName}/${i}.jpg`,
@@ -38,10 +38,27 @@ const Service_hala = () => {
   ));
   return (
     <div className={styles.wrapper}>
-      <h3>
-        Uroczystość oddania i poświęcenia Hali sportowej w Mokrzyskach. 13 IV
-        2023 rok.
-      </h3>
+      <h3>Diecezjalne Święto Caritas</h3>
+
+      <p>
+        W Tylmanowej 15 kwietnia 2023 roku, odbyło się diecezjalne święto
+        Caritas. Uroczystą Mszę św. odprawił i homilię wygłosił biskup tarnowski
+        Andrzej Jeż.
+      </p>
+      <p>Podczas uroczystości 36 osób otrzymało medale Misericors.</p>
+      <p>
+        <span>
+          W tym gronie znalazły się również nasze Drogie Parafianki: Wiesława
+          Smuk, Krystyna Biedak i Grażyna Milewska.
+        </span>
+      </p>
+      <p>
+        W uroczystościach brali udział duszpasterze, pracownicy i wolontariusze
+        Caritas z całej diecezji tarnowskiej. Biskup Andrzej Jeż podczas homilii
+        dziękował wolontariuszom za ich zaangażowanie i dobro niesione
+        potrzebującym. 36 osób zostało odznaczonych medalem Misericors, za
+        wyjątkowe zaangażowanie w działalność charytatywną.
+      </p>
 
       <p>Galeria (kliknij na zdjecie aby powiększyć)</p>
 
@@ -59,4 +76,4 @@ const Service_hala = () => {
   );
 };
 
-export default Service_hala;
+export default Service_caritas;

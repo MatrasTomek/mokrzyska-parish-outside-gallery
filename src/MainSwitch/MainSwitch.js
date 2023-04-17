@@ -20,6 +20,7 @@ import {
   Service4_23,
   Service5_23,
   Service_hala,
+  Service_caritas,
 } from "../templates/Services2022";
 import RodoViev from "../templates/RodoViev/RodoViev";
 // import Temporary from "../templates/Temporary/Temporary";
@@ -45,6 +46,7 @@ function MainSwitch() {
         <Route path="/niedziela-palmowa" component={Service5_23} />
         <Route path="/wystroj_23" component={Service2_23} />
         <Route path="/hala_23" component={Service_hala} />
+        <Route path="/caritas_23" component={Service_caritas} />
         {/* <Route path="/temporary" component={Temporary} /> */}
         <Route path="/rodo" component={RodoViev} />
         <Route component={StartViev} />
