@@ -3,7 +3,7 @@ import ItemImage from "../../../components/ImageItem/ItemImage";
 
 import styles from "../stylesForPic.module.scss";
 
-const Service_hala = () => {
+const Service_imieniny = () => {
   const [modalOpen, setModalOpen] = useState(false);
   const [pictureNo, setPictureNo] = useState(false);
 
@@ -38,10 +38,14 @@ const Service_hala = () => {
   ));
   return (
     <div className={styles.wrapper}>
-      <h3>
-        Uroczystość oddania i poświęcenia Hali sportowej w Mokrzyskach. 13 IV
-        2023 rok.
-      </h3>
+      <h3>Imieniny Księdza Proboszcza Stanisława - Mokrzyska 7.5.2023r.</h3>
+
+      <p>
+        W dniu 7.5.2023 przed Mszą świętą Liturgiczną Służba Ołtarza, Szafarze,
+        Akcja Katolicka i Parafianie za pośrednictwem przedstawicieli Rady
+        Parafialnej złożyli Księdzu Proboszczowi życzenia z okazji imienin. Po
+        mszy Proboszcz obdarował dzieciaki słodyczami.
+      </p>
 
       <p>Galeria (kliknij na zdjecie aby powiększyć)</p>
 
@@ -59,4 +63,4 @@ const Service_hala = () => {
   );
 };
 
-export default Service_hala;
+export default Service_imieniny;
