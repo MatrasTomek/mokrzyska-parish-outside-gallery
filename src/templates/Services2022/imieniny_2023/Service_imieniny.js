@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import ItemImage from "../../../components/ImageItemNoCopy/ItemImage";
+import ItemImage from "../../../components/ImageItem/ItemImage";
 
 import styles from "../stylesForPic.module.scss";
 
-const Service1_23 = () => {
+const Service_hala = () => {
   const [modalOpen, setModalOpen] = useState(false);
   const [pictureNo, setPictureNo] = useState(false);
 
@@ -13,11 +13,11 @@ const Service1_23 = () => {
     console.log(e.target.id);
   };
 
-  const catalogName = "rekolekcje_wlp_2023";
+  const catalogName = "imienimy_2023";
   // const pictureEnd = "";
   const arrayOfPictures = [];
 
-  for (let i = 1; i < 23; i++) {
+  for (let i = 1; i < 20; i++) {
     const picObj = {
       id: i,
       path: `/images/${catalogName}/${i}.jpg`,
@@ -38,11 +38,10 @@ const Service1_23 = () => {
   ));
   return (
     <div className={styles.wrapper}>
-      <h3>Rekolekcje Wielkopostne Przedszkolaków - 2023</h3>
-      <p>
-        W dniu 31 marca br., odbyły się Rekolekcje Wielkopostne dla naszych
-        Maluchów z Przedszkola, które prowadził ks. Sylwester Brzeżny.{" "}
-      </p>
+      <h3>
+        Uroczystość oddania i poświęcenia Hali sportowej w Mokrzyskach. 13 IV
+        2023 rok.
+      </h3>
 
       <p>Galeria (kliknij na zdjecie aby powiększyć)</p>
 
@@ -60,4 +59,4 @@ const Service1_23 = () => {
   );
 };
 
-export default Service1_23;
+export default Service_hala;
