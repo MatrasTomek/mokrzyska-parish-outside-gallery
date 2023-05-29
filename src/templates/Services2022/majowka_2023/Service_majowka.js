@@ -3,7 +3,7 @@ import ItemImage from "../../../components/ImageItem/ItemImage";
 
 import styles from "../stylesForPic.module.scss";
 
-const Service1_23 = () => {
+const Service_majowka = () => {
   const [modalOpen, setModalOpen] = useState(false);
   const [pictureNo, setPictureNo] = useState(false);
 
@@ -13,11 +13,11 @@ const Service1_23 = () => {
     console.log(e.target.id);
   };
 
-  const catalogName = "wielki_piatek_2023";
+  const catalogName = "majowka_2023";
   // const pictureEnd = "";
   const arrayOfPictures = [];
 
-  for (let i = 1; i < 71; i++) {
+  for (let i = 1; i < 7; i++) {
     const picObj = {
       id: i,
       path: `/images/${catalogName}/${i}.jpg`,
@@ -38,8 +38,20 @@ const Service1_23 = () => {
   ));
   return (
     <div className={styles.wrapper}>
-      <h3>Triduum Paschalne, Mokrzyska 2023 - Wielki Piątek</h3>
-      <p>Liturgia Męki Pańskiej</p>
+      <h3>
+        Nabożeństwo Majowe 27 maja 2023 roku przy kapliczce Matki Bożej na
+        ulicy Stanisławskiej.
+      </h3>
+
+      <p>,, Po górach, dolinach rozlega się dzwon...'' </p>
+      <p>
+        Tą oraz inne pieśni śpiewają uczestnicy nabożeństw majowych, gromadzący
+        się przy pięknej figurze Matki Bożej na ulicy Stanisławskiej w
+        Mokrzyskach. Warto potrzymywać ten piękny zwyczaj uwielbienia Maryi przy
+        kapliczkach rozsianych po naszej parafii. Bóg zapłać za wspólną
+        modlitwę, świadectwo wiary i tradycji oraz wspaniałą gościnę. Dziękuję
+        za dbałość o to piękne miejsce i za Waszą frekwencję.
+      </p>
 
       <p>Galeria (kliknij na zdjecie aby powiększyć)</p>
 
@@ -57,4 +69,4 @@ const Service1_23 = () => {
   );
 };
 
-export default Service1_23;
+export default Service_majowka;

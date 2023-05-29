@@ -20,6 +20,7 @@ import {
   Service_hala,
   Service_caritas,
   Service_imieniny,
+  Service_majowka,
 } from "../templates/Services2022";
 import RodoViev from "../templates/RodoViev/RodoViev";
 // import Temporary from "../templates/Temporary/Temporary";
@@ -40,8 +41,7 @@ function MainSwitch() {
         <Route path="/transmisja" component={Transmition} />
         <Route path="/rada" component={Council} />
         <Route path="/naszKosciol" component={Service1} />
-        <Route path="/w_piatek_23" component={Service1_23} />
-        <Route path="/wystroj_23" component={Service2_23} />
+        <Route path="/majowka_23" component={Service_majowka} />
         <Route path="/hala_23" component={Service_hala} />
         <Route path="/caritas_23" component={Service_caritas} />
         <Route path="/imieniny" component={Service_imieniny} />
