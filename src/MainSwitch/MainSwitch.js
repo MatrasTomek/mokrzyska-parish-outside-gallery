@@ -15,12 +15,12 @@ import Priests from "../templates/Priests/Priests";
 
 import {
   Service1,
-  Service1_23,
-  Service2_23,
   Service_hala,
   Service_caritas,
   Service_imieniny,
   Service_majowka,
+  Service_spotkanie,
+  Service_bcialo,
 } from "../templates/Services2022";
 import RodoViev from "../templates/RodoViev/RodoViev";
 // import Temporary from "../templates/Temporary/Temporary";
@@ -45,6 +45,8 @@ function MainSwitch() {
         <Route path="/hala_23" component={Service_hala} />
         <Route path="/caritas_23" component={Service_caritas} />
         <Route path="/imieniny" component={Service_imieniny} />
+        <Route path="/majowka-spotkanie-23" component={Service_spotkanie} />
+        <Route path="/boze-cialo-23" component={Service_bcialo} />
         {/* <Route path="/temporary" component={Temporary} /> */}
         <Route path="/rodo" component={RodoViev} />
         <Route component={StartViev} />
