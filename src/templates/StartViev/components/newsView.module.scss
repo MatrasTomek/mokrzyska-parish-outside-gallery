@@ -1,0 +1,82 @@
+@import "../../../Root/common.scss";
+
+.newsWrapper {
+  width: 90%;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h2 {
+    text-align: center;
+    color: $third-color;
+    margin-bottom: 30px;
+    flex-basis: 100%;
+  }
+
+  .newsItem {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 25px $third-color;
+    padding: 10px;
+    margin-bottom: 30px;
+    .newsTitle {
+      h5 {
+        text-align: right;
+      }
+      h3 {
+        text-align: center;
+        margin: 20px;
+      }
+      h3,
+      h5 {
+        color: $third-color;
+      }
+    }
+
+    .img {
+      width: 100%;
+      height: 0;
+      padding-bottom: 50%;
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      border-radius: 10px;
+    }
+
+    .img1 {
+      background-image: url("../../../assets/newsItems/DiecezjalneStudiumRodziny.jpg");
+    }
+  }
+  @media screen and (min-width: map-get($breakpoins, xl)) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    h2 {
+      font-size: $x-font-size * 1.3;
+    }
+
+    .newsItem {
+      flex-basis: 75%;
+      margin-bottom: 40px;
+    }
+    .newsTitle {
+      h3 {
+        font-size: $x-font-size * 0.9;
+      }
+    }
+  }
+  @media screen and (min-width: map-get($breakpoins, xx)) {
+    h2 {
+      font-size: $x-font-size * 2;
+    }
+
+    .newsTitle {
+      h3 {
+        font-size: $x-font-size * 1.1;
+      }
+    }
+  }
+}
