@@ -24,10 +24,11 @@
     display: flex;
     flex-direction: column;
     // background-color: rgba(0, 0, 0, 0.8);
-    background-image: url("../../assets/images/clouds_1280.jpg");
+    background-image: url("../../assets/images/plakat_41.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    border-radius: 10px;
 
     .info {
       width: 100%;
@@ -38,7 +39,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      background-color: rgba(0, 0, 0, 0.5);
+      // background-color: rgba(0, 0, 0, 0.5);
 
       h3,
       h2,
@@ -78,11 +79,12 @@
 
       .buttons {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         width: 90%;
         height: 4%;
         margin: 10px auto;
+        margin-top: 100%;
       }
     }
   }
