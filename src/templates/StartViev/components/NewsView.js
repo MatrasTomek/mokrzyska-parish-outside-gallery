@@ -5,7 +5,18 @@ const NewsView = () => {
   return (
     <div className={styles.newsWrapper}>
       <h2>Aktualności</h2>
-
+      <div className={styles.newsItem}>
+        <a
+          href="./documents/news/Rekrutacja.pdf"
+          target="blank"
+        >
+          <div className={styles.newsTitle}>
+            {" "}
+            <h3>Rekrutacja na studia magisterskie z teologii</h3>
+          </div>
+          <div className={`${styles.img} ${styles.img3}`}></div>
+        </a>
+      </div>
       <div className={styles.newsItem}>
         <a
           href="./documents/news/Diecezjalne_Studium_Rodziny.png"

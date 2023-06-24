@@ -56,6 +56,10 @@
       background-image: url("../../../assets/newsItems/wlochy_23.jpg");
       width: 100px;
     }
+
+    .img3 {
+      background-image: url("../../../assets/newsItems/rekrutacja_23.jpg");
+    }
   }
 
   @media screen and (min-width: map-get($breakpoins, sl)) {
