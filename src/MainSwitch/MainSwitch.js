@@ -15,7 +15,7 @@ import Priests from "../templates/Priests/Priests";
 
 import {
   Service1,
-  Service_hala,
+  Service_zakonczenie,
   Service_caritas,
   Service_imieniny,
   Service_majowka,
@@ -42,7 +42,7 @@ function MainSwitch() {
         <Route path="/rada" component={Council} />
         <Route path="/naszKosciol" component={Service1} />
         <Route path="/majowka_23" component={Service_majowka} />
-        <Route path="/hala_23" component={Service_hala} />
+        <Route path="/zakonczenie_23" component={Service_zakonczenie} />
         <Route path="/caritas_23" component={Service_caritas} />
         <Route path="/imieniny" component={Service_imieniny} />
         <Route path="/majowka-spotkanie-23" component={Service_spotkanie} />

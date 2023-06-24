@@ -9,6 +9,22 @@ const GridViev = () => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.inside}>
+            <div className={styles.element}>
+          <div
+            className={styles.image}
+            style={{
+              backgroundImage: `url(images/zakonczenie_roku_2023/29.jpg)`,
+            }}
+          ></div>
+          <div className={styles.info}>
+            <h4>
+             Uroczysta Msza święta na zakończenie roku szkolno-przedszkolnego - Mokrzyska 22.06.2023r.
+            </h4>
+          </div>
+          <Link to="/zakonczenie_23">
+            <Button name="zobacz" />
+          </Link>
+        </div>
         <div className={styles.element}>
           <div
             className={styles.image}
@@ -85,23 +101,7 @@ const GridViev = () => {
             <Button name="zobacz" />
           </Link>
         </div>
-        <div className={styles.element}>
-          <div
-            className={styles.image}
-            style={{
-              backgroundImage: `url(images/hala_2023/42.jpg)`,
-            }}
-          ></div>
-          <div className={styles.info}>
-            <h4>
-              Uroczystość oddania i poświęcenia Hali sportowej w Mokrzyskach. 13
-              IV 2023 rok.
-            </h4>
-          </div>
-          <Link to="/hala_23">
-            <Button name="zobacz" />
-          </Link>
-        </div>
+
       </div>
     </div>
   );
