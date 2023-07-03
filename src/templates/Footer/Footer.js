@@ -30,7 +30,7 @@ const Footer = () => {
 				</div>
 				<div className={styles.politics}>
 					<div className={styles.copyright}>
-						<p>&copy;Parafia Mokrzyska 2022</p>
+						<p>&copy;Parafia Mokrzyska 2023</p>
 					</div>
 					<Link to="/rodo">Polityka prywatności</Link>
 				</div>
