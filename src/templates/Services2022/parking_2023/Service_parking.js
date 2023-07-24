@@ -17,7 +17,7 @@ const Service_parking = () => {
   // const pictureEnd = "";
   const arrayOfPictures = [];
 
-  for (let i = 1; i < 24; i++) {
+  for (let i = 1; i < 30; i++) {
     const picObj = {
       id: i,
       path: `/images/${catalogName}/${i}.jpg`,

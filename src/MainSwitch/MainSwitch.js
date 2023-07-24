@@ -9,7 +9,7 @@ import Intentions from "../templates/Intentions/Intentions";
 import IntentionsOver from "../templates/IntentionsOver/IntentionsOver";
 import Calling from "../templates/Calling/Calling";
 import Statut from "../templates/CmentaryStatut/Statut";
-import Transmition from "../templates/Transmition/Transmition";
+// import Transmition from "../templates/Transmition/Transmition";
 import Council from "../templates/Council/Council";
 import Priests from "../templates/Priests/Priests";
 
@@ -36,7 +36,7 @@ function MainSwitch() {
         <Route path="/regulamin" component={Statut} />
         <Route path="/powolania" component={Calling} />
         <Route path="/duszpasterze" component={Priests} />
-        <Route path="/transmisja" component={Transmition} />
+        {/* <Route path="/transmisja" component={Transmition} /> */}
         <Route path="/rada" component={Council} />
         <Route path="/naszKosciol" component={Service1} />
         <Route path="/majowka-spotkanie-23" component={Service_spotkanie} />
