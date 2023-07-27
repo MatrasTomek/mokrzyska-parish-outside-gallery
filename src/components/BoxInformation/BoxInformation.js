@@ -28,12 +28,12 @@ const BoxInformation = () => {
         <div className={styles.info}>
           {/* <h1> </h1>
           <p>
-         
+
           </p>
           <p></p>
           <p></p> */}
           <div className={styles.buttons}>
-            <Button name="zobacz" onClick={handleOnGoToSite} />
+            {/* <Button name="zobacz" onClick={handleOnGoToSite} /> */}
             <Button name="zamknij" onClick={handleCloseButton} />
           </div>
         </div>
