@@ -13,6 +13,34 @@ const GridViev = () => {
           <div
             className={styles.image}
             style={{
+              backgroundImage: `url(images/figura_2023/4.jpg)`,
+            }}
+          ></div>
+          <div className={styles.info}>
+            <h4>Nasze prace przy demontażu figury Najświetszego Serca Pana Jezusa</h4>
+          </div>
+          <Link to="/figura-23">
+            <Button name="zobacz" />
+          </Link>
+        </div>
+      <div className={styles.element}>
+          <div
+            className={styles.image}
+            style={{
+              backgroundImage: `url(images/ogrodzenie_2023/4.jpg)`,
+            }}
+          ></div>
+          <div className={styles.info}>
+            <h4>Prace przy ogrodzeniu parafialnym</h4>
+          </div>
+          <Link to="/ogrodzenie-23">
+            <Button name="zobacz" />
+          </Link>
+        </div>
+      <div className={styles.element}>
+          <div
+            className={styles.image}
+            style={{
               backgroundImage: `url(images/parking_2023/23.jpg)`,
             }}
           ></div>
@@ -58,21 +86,6 @@ const GridViev = () => {
             <Button name="zobacz" />
           </Link>
         </div>
-        <div className={styles.element}>
-          <div
-            className={styles.image}
-            style={{
-              backgroundImage: `url(images/spotkanie_rad_2023/152.jpg)`,
-            }}
-          ></div>
-          <div className={styles.info}>
-            <h4>"Majówka 2023" - Spotkanie modlitewne Grup Parafialnych.</h4>
-          </div>
-          <Link to="/majowka-spotkanie-23">
-            <Button name="zobacz" />
-          </Link>
-        </div>
-
       </div>
     </div>
   );

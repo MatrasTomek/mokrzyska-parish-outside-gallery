@@ -3,7 +3,7 @@ import ItemImage from "../../../components/ImageItem/ItemImage";
 
 import styles from "../stylesForPic.module.scss";
 
-const Service_caritas = () => {
+const Service_ogrodzenie = () => {
   const [modalOpen, setModalOpen] = useState(false);
   const [pictureNo, setPictureNo] = useState(false);
 
@@ -13,11 +13,11 @@ const Service_caritas = () => {
     console.log(e.target.id);
   };
 
-  const catalogName = "spotkanie_rad_2023";
+  const catalogName = "ogrodzenie_2023";
   // const pictureEnd = "";
   const arrayOfPictures = [];
 
-  for (let i = 1; i < 156; i++) {
+  for (let i = 1; i < 10; i++) {
     const picObj = {
       id: i,
       path: `/images/${catalogName}/${i}.jpg`,
@@ -38,7 +38,7 @@ const Service_caritas = () => {
   ));
   return (
     <div className={styles.wrapper}>
-      <h3>"Majówka 2023" - Spotkanie modlitewne Grup Parafialnych.</h3>
+      <h3>Prace przy ogrodzeniu parafialnym</h3>
 
       <p>Galeria (kliknij na zdjecie aby powiększyć)</p>
 
@@ -56,4 +56,4 @@ const Service_caritas = () => {
   );
 };
 
-export default Service_caritas;
+export default Service_ogrodzenie;

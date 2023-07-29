@@ -1,7 +1,8 @@
 export { default as Service1 } from "./Service1_Church";
 export { default as Service_majowka } from "./majowka_2023";
-export { default as Service_spotkanie } from "./spotkanie_rad_2023";
+export { default as Service_ogrodzenie } from "./ogrodzenie_2023";
 export { default as Service_bcialo } from "./b_cialo_2023";
 export { default as Service_parking} from "./parking_2023";
 export { default as Service_zakonczenie} from "./zakonczenie_2023";
+export { default as Service_figura} from "./figura_2023";
 
