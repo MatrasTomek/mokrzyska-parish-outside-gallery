@@ -34,7 +34,7 @@ const BoxInformation = () => {
           <p></p> */}
           <div className={styles.buttons}>
             {/* <Button name="zobacz" onClick={handleOnGoToSite} /> */}
-            <Button name="zamknij" onClick={handleCloseButton} />
+            <Button name="X" onClick={handleCloseButton} />
           </div>
         </div>
       </div>
