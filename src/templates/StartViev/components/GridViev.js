@@ -13,6 +13,22 @@ const GridViev = () => {
           <div
             className={styles.image}
             style={{
+              backgroundImage: `url(images/piknik_2023/10.jpg)`,
+            }}
+          ></div>
+          <div className={styles.info}>
+            <h4>
+            Piknik Parafialny - Parafia z sercem - Mokrzyska 20.08.2023r.
+            </h4>
+          </div>
+          <Link to="/piknik-23">
+            <Button name="zobacz" />
+          </Link>
+        </div>
+      <div className={styles.element}>
+          <div
+            className={styles.image}
+            style={{
               backgroundImage: `url(images/figura_2023/4.jpg)`,
             }}
           ></div>
@@ -50,39 +66,6 @@ const GridViev = () => {
             </h4>
           </div>
           <Link to="/cmentarz-23">
-            <Button name="zobacz" />
-          </Link>
-        </div>
-            <div className={styles.element}>
-          <div
-            className={styles.image}
-            style={{
-              backgroundImage: `url(images/zakonczenie_roku_2023/29.jpg)`,
-            }}
-          ></div>
-          <div className={styles.info}>
-            <h4>
-             Uroczysta Msza święta na zakończenie roku szkolno-przedszkolnego - Mokrzyska 22.06.2023r.
-            </h4>
-          </div>
-          <Link to="/zakonczenie_23">
-            <Button name="zobacz" />
-          </Link>
-        </div>
-        <div className={styles.element}>
-          <div
-            className={styles.image}
-            style={{
-              backgroundImage: `url(images/b_cialo_2023/153.jpg)`,
-            }}
-          ></div>
-          <div className={styles.info}>
-            <h4>
-              Uroczystość Najświętszego Ciała i Krwi Chrystusa - Mokrzyska
-              8.06.2023r.
-            </h4>
-          </div>
-          <Link to="/boze-cialo-23">
             <Button name="zobacz" />
           </Link>
         </div>

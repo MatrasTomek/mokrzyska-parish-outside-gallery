@@ -3,7 +3,7 @@ import ItemImage from "../../../components/ImageItem/ItemImage";
 
 import styles from "../stylesForPic.module.scss";
 
-const Service_bcialo = () => {
+const Service_piknik = () => {
   const [modalOpen, setModalOpen] = useState(false);
   const [pictureNo, setPictureNo] = useState(false);
 
@@ -13,11 +13,11 @@ const Service_bcialo = () => {
     console.log(e.target.id);
   };
 
-  const catalogName = "b_cialo_2023";
+  const catalogName = "piknik_2023";
   // const pictureEnd = "";
   const arrayOfPictures = [];
 
-  for (let i = 1; i < 170; i++) {
+  for (let i = 1; i < 335; i++) {
     const picObj = {
       id: i,
       path: `/images/${catalogName}/${i}.jpg`,
@@ -38,9 +38,7 @@ const Service_bcialo = () => {
   ));
   return (
     <div className={styles.wrapper}>
-      <h3>
-        Uroczystość Najświętszego Ciała i Krwi Chrystusa - Mokrzyska 8.06.2023r.
-      </h3>
+      <h3>  Piknik Parafialny - Parafia z sercem - Mokrzyska 20.08.2023r.</h3>
 
       <p>Galeria (kliknij na zdjecie aby powiększyć)</p>
 
@@ -58,4 +56,4 @@ const Service_bcialo = () => {
   );
 };
 
-export default Service_bcialo;
+export default Service_piknik;
