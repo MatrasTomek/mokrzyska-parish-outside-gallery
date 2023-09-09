@@ -8,4 +8,6 @@ export const CONTACT_INFORMATION = {
   account: "34 1020 4984 0000 4702 0148 8246",
   nip: "8691708489",
   regon: "040064345",
+  organist: "Wojciech Oleksyk",
+  organistPhone: "503-081-855",
 };

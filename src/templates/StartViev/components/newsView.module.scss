@@ -60,6 +60,11 @@
     .img3 {
       background-image: url("../../../assets/newsItems/rekrutacja.jpg");
     }
+
+    .img4 {
+      background-image: url("../../../assets/newsItems/skarby_podkarpacia.jpg");
+      width: 100px;
+    }
   }
 
   @media screen and (min-width: map-get($breakpoins, sl)) {

@@ -8,7 +8,7 @@ import styles from "./footer.module.scss";
 
 const Footer = () => {
 	const { visitorsObj, visitorsMonthObj } = useContext(StoreContext);
-	const { name, adress, phone, person, bank, account, nip, regon } = CONTACT_INFORMATION;
+	const { name, adress, phone, person, bank, account, nip, regon, organist, organistPhone } = CONTACT_INFORMATION;
 	return (
 		<div className={styles.wrapper}>
 			<div className={styles.inside}>
@@ -24,9 +24,12 @@ const Footer = () => {
 					<h4>w tym miesiącu: {!visitorsMonthObj ? "" : visitorsMonthObj}</h4>
 				</div>
 				<div className={styles.contact}>
-					<h4>Proboszcz </h4>
+					<h4>Proboszcz: </h4>
 					<h4>{person}</h4>
 					<p>telefon: {phone}</p>
+					<h4>Organista: </h4>
+					<h4>{organist}</h4>
+					<p>telefon: {organistPhone}</p>
 				</div>
 				<div className={styles.politics}>
 					<div className={styles.copyright}>

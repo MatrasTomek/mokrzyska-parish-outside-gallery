@@ -7,6 +7,18 @@ const NewsView = () => {
       <h2>Aktualności</h2>
       <div className={styles.newsItem}>
         <a
+          href="./documents/news/skarby_podkarpacia.png"
+          target="blank"
+        >
+          <div className={styles.newsTitle}>
+            {" "}
+            <h3>Wycieczka „Skarby Podkarpacia”</h3>
+          </div>
+          <div className={`${styles.img} ${styles.img4}`}></div>
+        </a>
+      </div>
+      <div className={styles.newsItem}>
+        <a
           href="./documents/news/Rekrutacja.pdf"
           target="blank"
         >
