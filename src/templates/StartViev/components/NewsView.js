@@ -43,7 +43,7 @@ const NewsView = () => {
       </div>
       <div className={styles.newsItem}>
         <a
-          href="./documents/news/ku_trzezwosci.pdf"
+          href="./documents/news/skarby_podkarpacia.png"
           target="blank"
         >
           <div className={styles.newsTitle}>
