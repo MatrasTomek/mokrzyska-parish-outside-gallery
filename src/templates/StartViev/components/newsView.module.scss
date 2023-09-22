@@ -8,6 +8,10 @@
   align-items: center;
   justify-content: center;
 
+  a {
+    text-decoration: none;
+  }
+
   h2 {
     text-align: center;
     color: $third-color;
@@ -25,14 +29,22 @@
     .newsTitle {
       h5 {
         text-align: right;
+        text-decoration: underline;
       }
       h3 {
         text-align: center;
+        text-decoration: underline;
         margin: 20px;
       }
       h3,
-      h5 {
+      h5, p {
         color: $third-color;
+      }
+
+      p{
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: small;
       }
     }
 
@@ -49,7 +61,7 @@
     }
 
     .img3 {
-      background-image: url("../../../assets/newsItems/skarby_podkarpacia.jpg");
+      background-image: url("../../../assets/newsItems/studnie_w_czadzie.jpg");
       width: 100px;
     }
 
