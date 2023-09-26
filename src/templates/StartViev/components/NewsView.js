@@ -7,7 +7,25 @@ const NewsView = () => {
       <h2>Aktualności</h2>
       <div className={styles.newsItem}>
         <a
-          href="./documents/news/Plan_skarby_podkarpacia.pdf"
+          href="./documents/news/studnie_w_czadzie.pdf"
+          target="blank"
+        >
+          <div className={styles.newsTitle}>
+            {" "}
+            <h3>MARYJA WZOREM KOŚCIOŁA, W KTÓRY WIERZYMY</h3>
+            <p>- to hasło będzie nam towarzyszyć podczas tegorocznego
+<span>Tygodnia Maryjnego z Odpustem ku czci Matki Bożej Różańcowej w Bochni</span>,
+który potrwa <span>od 1 do 7 października 2023 r</span>.
+.
+            </p>
+
+          </div>
+          <div className={`${styles.img} ${styles.img2}`}></div>
+        </a>
+      </div>
+      <div className={styles.newsItem}>
+        <a
+          href="./documents/news/studnie_w_czadzie.pdf"
           target="blank"
         >
           <div className={styles.newsTitle}>
