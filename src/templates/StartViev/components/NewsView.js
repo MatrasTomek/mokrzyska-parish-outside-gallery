@@ -7,7 +7,7 @@ const NewsView = () => {
       <h2>Aktualności</h2>
       <div className={styles.newsItem}>
         <a
-          href="./documents/news/studnie_w_czadzie.pdf"
+          href="./documents/news/plakat_2023_Bochnia.jpg"
           target="blank"
         >
           <div className={styles.newsTitle}>
@@ -45,54 +45,6 @@ który potrwa <span>od 1 do 7 października 2023 r</span>.
             składać w zakrystii lub na plebanii. Z góry dziękuję za włączenie się w tę akcję pomocy misjonarzom.</p>
           </div>
           <div className={`${styles.img} ${styles.img3}`}></div>
-        </a>
-      </div>
-      <div className={styles.newsItem}>
-        <a
-          href="./documents/news/Plan_skarby_podkarpacia.pdf"
-          target="blank"
-        >
-          <div className={styles.newsTitle}>
-            {" "}
-            <h3>Plan Wycieczko – Pielgrzymki „Skarby Podkarpacia”</h3>
-          </div>
-          <div className={`${styles.img} ${styles.img4}`}></div>
-        </a>
-      </div>
-      <div className={styles.newsItem}>
-        <a
-          href="./documents/news/czarny_potok.jpg"
-          target="blank"
-        >
-          <div className={styles.newsTitle}>
-            {" "}
-            <h3>Diecezjalne spotkanie Nauczycieli i Wychowawców</h3>
-          </div>
-          <div className={`${styles.img} ${styles.img6}`}></div>
-        </a>
-      </div>
-      <div className={styles.newsItem}>
-        <a
-          href="./documents/news/ku_trzezwosci.pdf"
-          target="blank"
-        >
-          <div className={styles.newsTitle}>
-            {" "}
-            <h3>Ku trzeźwości z Kościołem</h3>
-          </div>
-          <div className={`${styles.img} ${styles.img5}`}></div>
-        </a>
-      </div>
-      <div className={styles.newsItem}>
-        <a
-          href="./documents/news/skarby_podkarpacia.png"
-          target="blank"
-        >
-          <div className={styles.newsTitle}>
-            {" "}
-            <h3>Wycieczka „Skarby Podkarpacia”</h3>
-          </div>
-          <div className={`${styles.img} ${styles.img4}`}></div>
         </a>
       </div>
     </div>
