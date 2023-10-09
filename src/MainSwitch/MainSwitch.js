@@ -19,6 +19,7 @@ import {
   Service_parking,
   Service_figura,
   Service_piknik,
+  Service_podkarpacie,
 } from "../templates/Services2022";
 import RodoViev from "../templates/RodoViev/RodoViev";
 // import Temporary from "../templates/Temporary/Temporary";
@@ -43,6 +44,7 @@ function MainSwitch() {
         <Route path="/piknik-23" component={Service_piknik} />
         <Route path="/cmentarz-23" component={Service_parking} />
         <Route path="/figura-23" component={Service_figura} />
+        <Route path="/podkarpacie-23" component={Service_podkarpacie} />
         {/* <Route path="/temporary" component={Temporary} /> */}
         <Route path="/rodo" component={RodoViev} />
         <Route component={StartViev} />

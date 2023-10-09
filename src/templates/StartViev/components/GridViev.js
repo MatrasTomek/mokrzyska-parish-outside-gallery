@@ -13,6 +13,22 @@ const GridViev = () => {
           <div
             className={styles.image}
             style={{
+              backgroundImage: `url(images/podkarpacie_2023/9.jpg)`,
+            }}
+          ></div>
+          <div className={styles.info}>
+            <h4>
+            Pielgrzymko-wycieczka do Kalwarii Pacławskiej, Krasiczyna i Przemyśla w dniu 7 października 2023 roku.
+            </h4>
+          </div>
+          <Link to="/podkarpacie-23">
+            <Button name="zobacz" />
+          </Link>
+        </div>
+      <div className={styles.element}>
+          <div
+            className={styles.image}
+            style={{
               backgroundImage: `url(images/piknik_2023/10.jpg)`,
             }}
           ></div>
