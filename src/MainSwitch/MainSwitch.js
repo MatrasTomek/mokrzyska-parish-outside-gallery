@@ -22,7 +22,7 @@ import {
   Service_podkarpacie,
 } from "../templates/Services2022";
 import RodoViev from "../templates/RodoViev/RodoViev";
-// import Temporary from "../templates/Temporary/Temporary";
+import Temporary from "../templates/Temporary/Temporary";
 
 function MainSwitch() {
   return (
@@ -45,7 +45,7 @@ function MainSwitch() {
         <Route path="/cmentarz-23" component={Service_parking} />
         <Route path="/figura-23" component={Service_figura} />
         <Route path="/podkarpacie-23" component={Service_podkarpacie} />
-        {/* <Route path="/temporary" component={Temporary} /> */}
+        <Route path="/temporary" component={Temporary} />
         <Route path="/rodo" component={RodoViev} />
         <Route component={StartViev} />
         <Redirect to="/" />

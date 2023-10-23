@@ -26,16 +26,19 @@ const BoxInformation = () => {
     >
       <div className={styles.inside}>
         <div className={styles.info}>
-          {/* <h1> </h1>
-          <p>
+     <h1>SPOWIEDŹ
+PRZED UROCZYSTOŚCIĄ WSZYSTKICH ŚWIĘTYCH
+</h1>
+          {/* <p>
 
           </p>
           <p></p>
-          <p></p> */}
-          <div className={styles.buttons}>
-            {/* <Button name="zobacz" onClick={handleOnGoToSite} /> */}
-            <Button name="X" onClick={handleCloseButton} />
-          </div>
+          <p></p>  */}
+<div className={styles.exit}>     <Button name="X" onClick={handleCloseButton} /></div>
+<div className={styles.look}>    <Button name="zobacz" onClick={handleOnGoToSite} /></div>
+
+
+
         </div>
       </div>
     </div>
