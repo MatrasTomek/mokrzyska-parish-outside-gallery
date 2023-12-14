@@ -3,7 +3,7 @@ import ItemImage from "../../../components/ImageItem/ItemImage";
 
 import styles from "../stylesForPic.module.scss";
 
-const Service_ogrodzenie = () => {
+const Service_forum = () => {
   const [modalOpen, setModalOpen] = useState(false);
   const [pictureNo, setPictureNo] = useState(false);
 
@@ -13,11 +13,11 @@ const Service_ogrodzenie = () => {
     console.log(e.target.id);
   };
 
-  const catalogName = "ogrodzenie_2023";
+  const catalogName = "forum_rad_2023";
   // const pictureEnd = "";
   const arrayOfPictures = [];
 
-  for (let i = 1; i < 10; i++) {
+  for (let i = 1; i < 14; i++) {
     const picObj = {
       id: i,
       path: `/images/${catalogName}/${i}.jpg`,
@@ -38,7 +38,7 @@ const Service_ogrodzenie = () => {
   ));
   return (
     <div className={styles.wrapper}>
-      <h3>Prace przy ogrodzeniu parafialnym</h3>
+      <h3>25 listopada odbyło się II Forum Parafialnych Rad Duszpasterskich w Arenie '' Jaskółka '' w Tarnowie, w którym wzięli udział przedstawiciele naszej Parafialnej Rady Duszpasterskiej . Dziękujemy im za udział i dar modlitwy podczas Forum.</h3>
 
       <p>Galeria (kliknij na zdjecie aby powiększyć)</p>
 
@@ -50,10 +50,10 @@ const Service_ogrodzenie = () => {
         setPictureNo={setPictureNo}
         catalogName={catalogName}
         slidesLength={arrayOfPictures.length}
-        // pictureEnd={pictureEnd}
+        // pictureEnd=wycieczka}
       />
     </div>
   );
 };
 
-export default Service_ogrodzenie;
+export default Service_forum;
