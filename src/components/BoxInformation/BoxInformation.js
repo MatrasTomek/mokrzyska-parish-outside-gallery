@@ -27,7 +27,8 @@ const BoxInformation = () => {
       <div className={styles.inside}>
         <div className={styles.info}>
      <h1>SPOWIEDŹ
-PRZED UROCZYSTOŚCIĄ WSZYSTKICH ŚWIĘTYCH
+PRZED UROCZYSTOŚCIĄ BOŻEGO NARODZENIA
+
 </h1>
           {/* <p>
 
