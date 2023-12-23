@@ -26,17 +26,22 @@ const BoxInformation = () => {
     >
       <div className={styles.inside}>
         <div className={styles.info}>
-     <h1>SPOWIEDŹ
-PRZED UROCZYSTOŚCIĄ BOŻEGO NARODZENIA
 
-</h1>
-          {/* <p>
+          <p>„Niech Duch Świętej Rodziny z Nazaretu
+panuje we wszystkich chrześcijańskich domach”
+św. Jan Paweł II
+</p>
+<p>W tajemnicy Narodzenia Syna Bożego kieruję najlepsze życzenia do Moich Parafian            i Ludzi otwartego serca.
+Niech to wydarzenie, które jest wołaniem Boga o miłość między ludźmi, o zrozumienie, wybaczenie i zgodę, o pokój i przyjaźń w Chrystusie – przemieni nasze serca.
+Niech Boże Dziecię będzie źródłem wszelkich darów, niech błogosławi i opromieni swą łaską wszystkie dni Nowego Roku 2024!.
+</p>
+<p>Szczęść Boże!
+Z darem modlitwy
+Ks. Stanisław Tokarski - Proboszcz
+</p>
 
-          </p>
-          <p></p>
-          <p></p>  */}
 <div className={styles.exit}>     <Button name="X" onClick={handleCloseButton} /></div>
-<div className={styles.look}>    <Button name="zobacz" onClick={handleOnGoToSite} /></div>
+{/* <div className={styles.look}>    <Button name="zobacz" onClick={handleOnGoToSite} /></div> */}
 
 
 

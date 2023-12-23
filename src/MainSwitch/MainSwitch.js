@@ -17,10 +17,10 @@ import {
   Service1,
   Service_podkarpacie,
   Service_wycieczka,
-  Service_forum,
+  // Service_forum,
 } from "../templates/Services2022";
 import RodoViev from "../templates/RodoViev/RodoViev";
-import Temporary from "../templates/Temporary/Temporary";
+// import Temporary from "../templates/Temporary/Temporary";
 
 function MainSwitch() {
   return (
@@ -40,7 +40,7 @@ function MainSwitch() {
         <Route path="/naszKosciol" component={Service1} />
         <Route path="/podkarpacie-23" component={Service_podkarpacie} />
         <Route path="/wycieczka-lso-23" component={Service_wycieczka} />
-        <Route path="/temporary" component={Temporary} />
+        {/* <Route path="/temporary" component={Temporary} /> */}
         <Route path="/rodo" component={RodoViev} />
         <Route component={StartViev} />
         <Redirect to="/" />
