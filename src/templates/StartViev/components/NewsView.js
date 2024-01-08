@@ -7,12 +7,12 @@ const NewsView = () => {
       <h2>Aktualności</h2>
       {/* <div className={styles.newsItem}>
         <a
-          href="./documents/news/11_forum_nauczycieli_wychowawcow.png"
+          href="./documents/news/koncert_kolend.jpg"
           target="blank"
         >
           <div className={styles.newsTitle}>
             {" "}
-            <h3>XI FORMU NAUCZYCIELI I WYCHOWAWCÓW - Wychowawcy na współczesne czasy.</h3>
+            <h3>Koncert Kolęd i Pastorałek - 7 stycznia 2024 Mokrzyska</h3>
           </div>
           <div className={`${styles.img} ${styles.img1}`}></div>
         </a>

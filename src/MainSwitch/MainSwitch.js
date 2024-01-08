@@ -15,9 +15,9 @@ import Priests from "../templates/Priests/Priests";
 
 import {
   Service1,
-  Service_podkarpacie,
-  Service_wycieczka,
-  // Service_forum,
+  Service_0224,
+  Service_0324,
+
 } from "../templates/Services2022";
 import RodoViev from "../templates/RodoViev/RodoViev";
 // import Temporary from "../templates/Temporary/Temporary";
@@ -38,8 +38,8 @@ function MainSwitch() {
         {/* <Route path="/transmisja" component={Transmition} /> */}
         <Route path="/rada" component={Council} />
         <Route path="/naszKosciol" component={Service1} />
-        <Route path="/podkarpacie-23" component={Service_podkarpacie} />
-        <Route path="/wycieczka-lso-23" component={Service_wycieczka} />
+        <Route path="/kaplica-prace-24" component={Service_0224} />
+        <Route path="/koncert-koled-24" component={Service_0324} />
         {/* <Route path="/temporary" component={Temporary} /> */}
         <Route path="/rodo" component={RodoViev} />
         <Route component={StartViev} />

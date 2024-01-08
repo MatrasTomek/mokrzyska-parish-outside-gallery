@@ -27,15 +27,11 @@ const BoxInformation = () => {
       <div className={styles.inside}>
         <div className={styles.info}>
 
-          <p>„Niech Duch Świętej Rodziny z Nazaretu
-panuje we wszystkich chrześcijańskich domach”
-św. Jan Paweł II
+          <p>ŻYCZENIA NOWOROCZNE
 </p>
-<p>W tajemnicy Narodzenia Syna Bożego kieruję najlepsze życzenia do Moich Parafian            i Ludzi otwartego serca.
-Niech to wydarzenie, które jest wołaniem Boga o miłość między ludźmi, o zrozumienie, wybaczenie i zgodę, o pokój i przyjaźń w Chrystusie – przemieni nasze serca.
-Niech Boże Dziecię będzie źródłem wszelkich darów, niech błogosławi i opromieni swą łaską wszystkie dni Nowego Roku 2024!.
+<p>Wszystkim Parafianom z okazji Nowego Roku, pragnę życzyć wiele łask Bożych, spokoju serca, wytrwałości w dobrych postanowieniach, zdrowia oraz dużo sił w drodze do świętości. Szczęśliwego Nowego Roku 2024.
 </p>
-<p>Szczęść Boże!
+<p>
 Z darem modlitwy
 Ks. Stanisław Tokarski - Proboszcz
 </p>

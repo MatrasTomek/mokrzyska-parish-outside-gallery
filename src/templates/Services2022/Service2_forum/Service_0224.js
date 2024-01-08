@@ -3,7 +3,7 @@ import ItemImage from "../../../components/ImageItem/ItemImage";
 
 import styles from "../stylesForPic.module.scss";
 
-const Service_wycieczka = () => {
+const Service_0224= () => {
   const [modalOpen, setModalOpen] = useState(false);
   const [pictureNo, setPictureNo] = useState(false);
 
@@ -13,11 +13,11 @@ const Service_wycieczka = () => {
     console.log(e.target.id);
   };
 
-  const catalogName = "wycieczka_lso_2023";
+  const catalogName = "kaplica_prace_2024";
   // const pictureEnd = "";
   const arrayOfPictures = [];
 
-  for (let i = 1; i < 67; i++) {
+  for (let i = 1; i < 10; i++) {
     const picObj = {
       id: i,
       path: `/images/${catalogName}/${i}.jpg`,
@@ -38,7 +38,7 @@ const Service_wycieczka = () => {
   ));
   return (
     <div className={styles.wrapper}>
-      <h3>Wycieczka Liturgicznej Służby Ołtarza oraz Dziewczęcej Słuzby Maryjnej w Pieniny.</h3>
+      <h3>Nasze prace przy Kaplicy Cmentarnej</h3>
 
       <p>Galeria (kliknij na zdjecie aby powiększyć)</p>
 
@@ -56,4 +56,4 @@ const Service_wycieczka = () => {
   );
 };
 
-export default Service_wycieczka;
+export default Service_0224;
