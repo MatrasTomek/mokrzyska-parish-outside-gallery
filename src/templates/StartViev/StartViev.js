@@ -31,7 +31,7 @@ const StartViev = () => {
           <GridViev />
         </div>
       </div>
-      <div className={styles.insida}>
+      <div className={styles.inside}>
         <NewsView />
       </div>
       {vievBanner === true ? <RodoBanner setVievBanner={setVievBanner} /> : ""}

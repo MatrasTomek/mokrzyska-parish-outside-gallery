@@ -33,14 +33,9 @@ const Footer = () => {
 				</div>
 				<div className={styles.politics}>
 					<div className={styles.copyright}>
-						<p>&copy;Parafia Mokrzyska 2023</p>
+						<p>&copy;Parafia Mokrzyska 2024</p>
 					</div>
 					<Link to="/rodo">Polityka prywatności</Link>
-				</div>
-				<div className={styles.producer}>
-					<a href="https://www.developerweb.pl/" target="blanc">
-						www.developerweb.pl
-					</a>
 				</div>
 			</div>
 		</div>

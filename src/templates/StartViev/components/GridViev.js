@@ -13,6 +13,22 @@ const GridViev = () => {
           <div
             className={styles.image}
             style={{
+              backgroundImage: `url(images/jaselka_2024/16.jpg)`,
+            }}
+          ></div>
+          <div className={styles.info}>
+            <h4>
+            Misterium Bożego Narodzenia - 13 stycznia 2024 Mokrzyska.
+            </h4>
+          </div>
+          <Link to="/jaselka-24">
+            <Button name="zobacz" />
+          </Link>
+        </div>
+      <div className={styles.element}>
+          <div
+            className={styles.image}
+            style={{
               backgroundImage: `url(images/koncert_koled_2024/7.jpg)`,
             }}
           ></div>
