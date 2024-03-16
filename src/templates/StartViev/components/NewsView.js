@@ -7,6 +7,18 @@ const NewsView = () => {
       <h2>Aktualności</h2>
       <div className={styles.newsItem}>
         <a
+          href="./documents/news/tajemnica-eucharystii.png"
+          target="blank"
+        >
+          <div className={styles.newsTitle}>
+            {" "}
+            <h3>Tajemnica Eucharystii</h3>
+          </div>
+          <div className={`${styles.img} ${styles.img1}`}></div>
+        </a>
+      </div>
+      <div className={styles.newsItem}>
+        <a
           href="./documents/news/zaproszenie_bezplatne_wydarzenia.pdf"
           target="blank"
         >

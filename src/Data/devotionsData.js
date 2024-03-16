@@ -11,6 +11,6 @@ export const DEVOTIONS_DATA = [
   "Nabożeństwo czerwcowe ku czci Najświętszego Serca Pana Jezusa: w oktawie Bożego Ciała, po Mszy św. wieczornej",
   "Nabożeństwo różańcowe - październik o 17.30",
   "Roraty w Adwencie o 18.00",
-  "Gorzkie Żale w Wielkim Poście - w niedzielę o 15.00",
+  "Gorzkie Żale w Wielkim Poście - w niedzielę o 14.00",
   "Droga Krzyżowa w Wielkim Poście - w piątki o 17.30, w niedzielę po Mszy św. o 10.30",
 ];
