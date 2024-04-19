@@ -7,12 +7,12 @@ const NewsView = () => {
       <h2>Aktualności</h2>
       <div className={styles.newsItem}>
         <a
-          href="./documents/news/tajemnica-eucharystii.png"
+          href="./documents/news/Rekrutacja.pdf"
           target="blank"
         >
           <div className={styles.newsTitle}>
             {" "}
-            <h3>Tajemnica Eucharystii</h3>
+            <h3>Rekrutacja do Studium Organistowskiego</h3>
           </div>
           <div className={`${styles.img} ${styles.img1}`}></div>
         </a>
