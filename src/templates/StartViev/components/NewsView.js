@@ -14,7 +14,7 @@ const NewsView = () => {
             {" "}
             <h3>Rekolekcje Biblijne</h3>
           </div>
-          {/* <div className={`${styles.img} ${styles.img1}`}></div> */}
+          <div className={`${styles.img} ${styles.img3}`}></div>
         </a>
       </div>
       <div className={styles.newsItem}>
@@ -26,7 +26,7 @@ const NewsView = () => {
             {" "}
             <h3>Odpust w Szczepanowie</h3>
           </div>
-          {/* <div className={`${styles.img} ${styles.img1}`}></div> */}
+          {/* <div className={`${styles.img} ${styles.img2}`}></div> */}
         </a>
       </div>
       <div className={styles.newsItem}>
