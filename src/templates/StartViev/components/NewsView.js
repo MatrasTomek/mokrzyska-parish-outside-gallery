@@ -7,6 +7,18 @@ const NewsView = () => {
       <h2>Aktualności</h2>
       <div className={styles.newsItem}>
         <a
+          href="./documents/news/Brzesko_Tuchow_powolania.pdf"
+          target="blank"
+        >
+          <div className={styles.newsTitle}>
+            {" "}
+            <h3>1 Brzeska piesza Pielgrzymka do Tuchowa</h3>
+          </div>
+          <div className={`${styles.img} ${styles.img3}`}></div>
+        </a>
+      </div>
+      <div className={styles.newsItem}>
+        <a
           href="./documents/news/rekoloekcje_eucharystia.jpg"
           target="blank"
         >
@@ -14,19 +26,7 @@ const NewsView = () => {
             {" "}
             <h3>Rekolekcje Biblijne</h3>
           </div>
-          <div className={`${styles.img} ${styles.img3}`}></div>
-        </a>
-      </div>
-      <div className={styles.newsItem}>
-        <a
-          href="./documents/news/odpust_szczepanowski_2024.pdf"
-          target="blank"
-        >
-          <div className={styles.newsTitle}>
-            {" "}
-            <h3>Odpust w Szczepanowie</h3>
-          </div>
-          {/* <div className={`${styles.img} ${styles.img2}`}></div> */}
+          <div className={`${styles.img} ${styles.img2}`}></div>
         </a>
       </div>
       <div className={styles.newsItem}>
