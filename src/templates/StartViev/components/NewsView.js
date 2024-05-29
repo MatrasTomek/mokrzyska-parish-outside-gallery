@@ -7,6 +7,31 @@ const NewsView = () => {
       <h2>Aktualności</h2>
       <div className={styles.newsItem}>
         <a
+          href="./documents/news/43-pielgrz_JG.pdf"
+          target="blank"
+        >
+          <div className={styles.newsTitle}>
+            {" "}
+            <h3>Ogólnopolska Pielgrzymka Apostolstwa Trzeźwości na Jasną Górę</h3>
+          </div>
+          <div className={`${styles.img} ${styles.img2}`}></div>
+        </a>
+      </div>
+      <div className={styles.newsItem}>
+        <a
+          href="./documents/news/Stanowczy_sprzeciw_wobec_działań_MEN.pdf"
+          target="blank"
+        >
+          <div className={styles.newsTitle}>
+            {" "}
+            <h3>„Stanowczy sprzeciw wobec działań MEN”
+Oświadczenie Dyrektorów Wydziałów Katechetycznych</h3>
+          </div>
+
+        </a>
+      </div>
+      <div className={styles.newsItem}>
+        <a
           href="./documents/news/Brzesko_Tuchow_powolania.pdf"
           target="blank"
         >
@@ -15,18 +40,6 @@ const NewsView = () => {
             <h3>1 Brzeska piesza Pielgrzymka do Tuchowa</h3>
           </div>
           <div className={`${styles.img} ${styles.img3}`}></div>
-        </a>
-      </div>
-      <div className={styles.newsItem}>
-        <a
-          href="./documents/news/rekoloekcje_eucharystia.jpg"
-          target="blank"
-        >
-          <div className={styles.newsTitle}>
-            {" "}
-            <h3>Rekolekcje Biblijne</h3>
-          </div>
-          <div className={`${styles.img} ${styles.img2}`}></div>
         </a>
       </div>
       <div className={styles.newsItem}>
