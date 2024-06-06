@@ -8,37 +8,40 @@ import styles from "./boxesViev.module.scss";
 const BoxesViev = () => {
 	const [index, setIndex] = useState(0);
 
-	let indexNo = index;
-	const changeIndex = () => {
-		indexNo++;
-		if (indexNo === ITEMS.length) {
-			indexNo = 0;
-		}
-		setIndex(indexNo);
-	};
 
-	useEffect(() => {
-		const interval = setInterval(() => {
-			changeIndex();
-		}, 5000);
+	//TM commented for non show gallery
 
-		return () => {
-			clearInterval(interval);
-		};
-	});
+	// let indexNo = index;
+	// const changeIndex = () => {
+	// 	indexNo++;
+	// 	if (indexNo === ITEMS.length) {
+	// 		indexNo = 0;
+	// 	}
+	// 	setIndex(indexNo);
+	// };
 
-	const sliders = ITEMS.map((item) => (
-		<div
-			key={item.id}
-			className={styles.image}
-			style={{ right: "100%", backgroundImage: `url(${item.path})` }}
-		></div>
-	));
+	// useEffect(() => {
+	// 	const interval = setInterval(() => {
+	// 		changeIndex();
+	// 	}, 5000);
 
-	const slideShow = () => {
-		sliders[index].props.style.right = "0%";
-	};
-	slideShow();
+	// 	return () => {
+	// 		clearInterval(interval);
+	// 	};
+	// });
+
+	// const sliders = ITEMS.map((item) => (
+	// 	<div
+	// 		key={item.id}
+	// 		className={styles.image}
+	// 		style={{ right: "100%", backgroundImage: `url(${item.path})` }}
+	// 	></div>
+	// ));
+
+	// const slideShow = () => {
+	// 	sliders[index].props.style.right = "0%";
+	// };
+	// slideShow();
 	return (
 		<div className={styles.boxes}>
 			<div className={styles.outside}>
@@ -101,7 +104,7 @@ const BoxesViev = () => {
 				</Link>
 			</div>
 
-			<div className={styles.outside}>
+			{/* <div className={styles.outside}>
 				<div className={styles.slider}>{sliders}</div>
 				<a href="http://www.galeria.parafiamokrzyska.pl">
 					<div>
@@ -110,7 +113,7 @@ const BoxesViev = () => {
 						<Button name="zobacz" />
 					</div>
 				</a>
-			</div>
+			</div> */}
 			<div className={styles.outside}>
 				<Link to="/rada">
 					<div>

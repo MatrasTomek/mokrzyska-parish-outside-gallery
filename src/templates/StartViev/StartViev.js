@@ -27,9 +27,9 @@ const StartViev = () => {
         <div className={styles.bigInfo}>
           <Link to="/naszKosciol">Zobacz Nasz Kościół</Link>
         </div>
-        <div className={styles.gridInfo}>
+        {/* <div className={styles.gridInfo}>
           <GridViev />
-        </div>
+        </div> */}
       </div>
       <div className={styles.inside}>
         <NewsView />
