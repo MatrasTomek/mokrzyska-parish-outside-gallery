@@ -64,7 +64,7 @@ const BoxesViev = () => {
 					<div>
 						<h2>kancelaria</h2>
 						<h3>Godziny urzędowania:</h3>
-						<p>codziennie 18.30 – 19.00</p>
+						<p>codziennie po Mszy Św. wieczornej do 19.00</p>
 						<p>W soboty, niedziele i święta zamknięte</p>
 						<Button name="zobacz" />
 					</div>

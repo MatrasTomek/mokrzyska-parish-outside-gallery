@@ -7,12 +7,12 @@ const NewsView = () => {
       <h2>Aktualności</h2>
       <div className={styles.newsItem}>
         <a
-          href="./documents/news/43-pielgrz_JG.pdf"
+          href="https://pielgrzymkatarnowska.pl/"
           target="blank"
         >
           <div className={styles.newsTitle}>
             {" "}
-            <h3>Ogólnopolska Pielgrzymka Apostolstwa Trzeźwości na Jasną Górę</h3>
+            <h3>Piesza Pielgrzymka Tarnowska na Jasną Górę 2024r.</h3>
           </div>
           <div className={`${styles.img} ${styles.img2}`}></div>
         </a>
@@ -28,18 +28,6 @@ const NewsView = () => {
 Oświadczenie Dyrektorów Wydziałów Katechetycznych</h3>
           </div>
 
-        </a>
-      </div>
-      <div className={styles.newsItem}>
-        <a
-          href="./documents/news/Brzesko_Tuchow_powolania.pdf"
-          target="blank"
-        >
-          <div className={styles.newsTitle}>
-            {" "}
-            <h3>1 Brzeska piesza Pielgrzymka do Tuchowa</h3>
-          </div>
-          <div className={`${styles.img} ${styles.img3}`}></div>
         </a>
       </div>
       <div className={styles.newsItem}>
