@@ -32,7 +32,7 @@ const ItemImage = ({
           backgroundImage: `url(${!bigPicturePath ? "" : bigPicturePath})`,
         }}
       >
-        <p>&copy;Parafia Mokrzyska 2023</p>
+        {/* <p>&copy;Parafia Mokrzyska 2023</p> */}
         <div className={styles.buttons}>
           <div
             className={pictureNo === 1 ? styles.none : styles.left}

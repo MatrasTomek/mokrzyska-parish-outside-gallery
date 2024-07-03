@@ -3,7 +3,7 @@ import ItemImage from "../../../components/ImageItem/ItemImage";
 
 import styles from "../stylesForPic.module.scss";
 
-const Service_0524 = () => {
+const Service_0624 = () => {
   const [modalOpen, setModalOpen] = useState(false);
   const [pictureNo, setPictureNo] = useState(false);
 
@@ -13,11 +13,11 @@ const Service_0524 = () => {
     console.log(e.target.id);
   };
 
-  const catalogName = "odpust_2024";
+  const catalogName = "bc_2024";
   // const pictureEnd = "";
   const arrayOfPictures = [];
 
-  for (let i = 1; i < 75; i++) {
+  for (let i = 1; i < 233; i++) {
     const picObj = {
       id: i,
       path: `/images/${catalogName}/${i}.jpg`,
@@ -38,7 +38,7 @@ const Service_0524 = () => {
   ));
   return (
     <div className={styles.wrapper}>
-      <h3>Odpust Parafialny 2024r.</h3>
+      <h3>Uroczystość Najświętszego Ciała i Krwi Chrystusa 2024.</h3>
 
       <p>Galeria (kliknij na zdjecie aby powiększyć)</p>
 
@@ -56,4 +56,4 @@ const Service_0524 = () => {
   );
 };
 
-export default Service_0524;
+export default Service_0624;
