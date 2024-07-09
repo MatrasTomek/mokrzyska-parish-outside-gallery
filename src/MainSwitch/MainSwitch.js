@@ -12,6 +12,7 @@ import Statut from "../templates/CmentaryStatut/Statut";
 // import Transmition from "../templates/Transmition/Transmition";
 import Council from "../templates/Council/Council";
 import Priests from "../templates/Priests/Priests";
+import Standards from "../templates/Standards/Standards";
 
 import {
   Service1,
@@ -41,6 +42,7 @@ function MainSwitch() {
         <Route path="/duszpasterze" component={Priests} />
         {/* <Route path="/transmisja" component={Transmition} /> */}
         <Route path="/rada" component={Council} />
+        <Route path="/standardy" component={Standards} />
         <Route path="/naszKosciol" component={Service1} />
         <Route path="/kaplica-prace-24" component={Service_0224} />
         <Route path="/koncert-koled-24" component={Service_0324} />

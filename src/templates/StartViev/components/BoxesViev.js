@@ -103,17 +103,15 @@ const BoxesViev = () => {
 					</div>
 				</Link>
 			</div>
-
-			{/* <div className={styles.outside}>
-				<div className={styles.slider}>{sliders}</div>
-				<a href="http://www.galeria.parafiamokrzyska.pl">
+			<div className={styles.outside}>
+			<Link to="/standardy">
 					<div>
-						<h2>galeria</h2>
-
+						<h2>Standardy Ochrony Małoletnich w parafii Mokrzyska</h2>
+						<p></p>
 						<Button name="zobacz" />
 					</div>
-				</a>
-			</div> */}
+					</Link>
+			</div>
 			<div className={styles.outside}>
 				<Link to="/rada">
 					<div>
