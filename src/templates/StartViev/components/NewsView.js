@@ -8,7 +8,7 @@ const NewsView = () => {
       <div className={styles.newsItem}>
 
         <a
-          href="./documents/news/Komunikat_UNS_Jana_Pawła_II.pdf/"
+          href="./documents/news/Komunikat_UNS_Jana_Pawła_II.pdf"
           target="blank"
         >
           <div className={styles.newsTitle}>
