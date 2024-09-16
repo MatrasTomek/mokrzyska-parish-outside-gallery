@@ -6,15 +6,16 @@ const NewsView = () => {
     <div className={styles.newsWrapper}>
       <h2>Aktualności</h2>
       <div className={styles.newsItem}>
+
         <a
-          href="https://pielgrzymkatarnowska.pl/"
+          href="./documents/news/Komunikat_UNS_Jana_Pawła_II.pdf/"
           target="blank"
         >
           <div className={styles.newsTitle}>
             {" "}
-            <h3>Piesza Pielgrzymka Tarnowska na Jasną Górę 2024r.</h3>
+            <h3>Komunikat o Uniwersytecie Nauczania Społecznego Jana Pawła II.</h3>
           </div>
-          <div className={`${styles.img} ${styles.img2}`}></div>
+
         </a>
       </div>
       <div className={styles.newsItem}>
