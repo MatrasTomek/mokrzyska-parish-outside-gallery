@@ -9,6 +9,21 @@ const GridViev = () => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.inside}>
+
+      <div className={styles.element}>
+          <div
+            className={styles.image}
+            style={{
+              backgroundImage: `url(images/jubileusz_2024/99.jpg)`,
+            }}
+          ></div>
+          <div className={styles.info}>
+            <h4>JUBILEUSZ 25 – LECIA PARAFIALNEGO ODDZIAŁU AKCJI KATOLICKIEJ W PARAFII NAJŚWIĘTSZEGO SERCA PANA JEZUSA W MOKRZYSKACH</h4>
+          </div>
+          <Link to="/jubileusz-24">
+            <Button name="zobacz" />
+          </Link>
+        </div>
       <div className={styles.element}>
           <div
             className={styles.image}
