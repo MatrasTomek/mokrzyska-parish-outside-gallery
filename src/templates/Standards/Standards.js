@@ -14,10 +14,10 @@ const Standards = () => {
 						Standardy Ochrony Małoletnich w parafii Mokrzyska
 					</a>
 					<a
-						href="./documents/Zespol_do_spraw_prefencji_NSPJ.pdf"
+						href="./documents/OSOBA_ZAUFANIA_DO_SPRAW_PREFENCJI.pdf"
 						target="blank"
 					>
-						Zespół do spraw Prefencji w parafii Mokrzyska
+						Osoba zaufana do spraw prewencji
 					</a>
 
 				</div>
