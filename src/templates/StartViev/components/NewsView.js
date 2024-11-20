@@ -8,12 +8,12 @@ const NewsView = () => {
       <div className={styles.newsItem}>
 
         <a
-          href="./documents/news/Komunikat_UNS_Jana_Pawła_II.pdf"
+          href="./documents/news/3_forum_rad_duspasterskich.png"
           target="blank"
         >
           <div className={styles.newsTitle}>
             {" "}
-            <h3>Komunikat o Uniwersytecie Nauczania Społecznego Jana Pawła II.</h3>
+            <h3>Pielgrzymi Nadzieji - III FORUM PARAFIALNYCH RAD DUSZPASTERSKICH</h3>
           </div>
 
         </a>
@@ -31,18 +31,7 @@ Oświadczenie Dyrektorów Wydziałów Katechetycznych</h3>
 
         </a>
       </div>
-      <div className={styles.newsItem}>
-        <a
-          href="./documents/news/Rekrutacja.pdf"
-          target="blank"
-        >
-          <div className={styles.newsTitle}>
-            {" "}
-            <h3>Rekrutacja do Studium Organistowskiego</h3>
-          </div>
-          <div className={`${styles.img} ${styles.img1}`}></div>
-        </a>
-      </div>
+
     </div>
   );
 };

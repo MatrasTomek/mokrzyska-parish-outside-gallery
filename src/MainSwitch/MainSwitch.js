@@ -11,6 +11,7 @@ import Calling from "../templates/Calling/Calling";
 import Statut from "../templates/CmentaryStatut/Statut";
 // import Transmition from "../templates/Transmition/Transmition";
 import Council from "../templates/Council/Council";
+import Carol from "../templates/Carol/Carol";
 import Priests from "../templates/Priests/Priests";
 import Standards from "../templates/Standards/Standards";
 
@@ -43,6 +44,7 @@ function MainSwitch() {
         <Route path="/duszpasterze" component={Priests} />
         {/* <Route path="/transmisja" component={Transmition} /> */}
         <Route path="/rada" component={Council} />
+        <Route path="/koleda" component={Carol} />
         <Route path="/standardy" component={Standards} />
         <Route path="/naszKosciol" component={Service1} />
         <Route path="/kaplica-prace-24" component={Service_0224} />

@@ -121,6 +121,15 @@ const BoxesViev = () => {
 					</div>
 				</Link>
 			</div>
+			<div className={styles.outside}>
+				<Link to="koleda">
+					<div>
+						<h2>Wizyta Duszpasterska / kolęda 2024/2025</h2>
+						<p></p>
+						<Button name="zobacz" />
+					</div>
+				</Link>
+			</div>
 		</div>
 	);
 };
