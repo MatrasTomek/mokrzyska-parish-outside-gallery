@@ -19,9 +19,6 @@ const Council = () => {
 					>
 						Regulamin wyboru Parafialnej Rady Duszpasterskiej w Diecezji Tarnowskiej
 					</a>
-					<a href="./documents/Wyniki_wyborow_do_Rady_Duszpasterskiej.pdf" target="blank">
-						Wyniki wyborów do Rady Duszpasterskiej
-					</a>
 					<a
 						href="./documents/Statut_Parafialnej_Rady_Duszpasterskiej_w_Diecezji_Tarnowskiej.pdf"
 						target="blank"
