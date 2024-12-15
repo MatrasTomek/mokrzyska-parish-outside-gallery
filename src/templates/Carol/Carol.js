@@ -43,10 +43,10 @@ const Carol = () => {
 <p><span>Rozpoczęcie o godzinie 16.30</span> Od Państwa Jacka i Jolanty Szczygiełek, zakończenie u Państwa Dawida i Iwony Halik.</p>
 
 <h3>7 Styczeń (WTOREK) 2025, ulica Siostry Katarzyny Przybytniak.</h3>
-<p><span>Rozpoczęcie o godzinie 16.00</span> Od Pani Zofii Wszołek, zakończenie u Pani Haliny Kuciel.</p>
+<p><span>Rozpoczęcie o godzinie 16.00</span> Od Państwa Marka i Elżbiety Mularz, zakończenie u Państwa Mariusza i Agnieszki Stolarz.</p>
 
-<h3>11 Styczeń (SOBOTA) 2025, ulica Gminna i Potokowa.</h3>
-<p><span>Rozpoczęcie o godzinie 9.00</span> Od Państwa Małgorzaty i Roberta Motak, zakończenie u Państwa Michała i Katarzyny Dziedzic.</p>
+<h3>9 Styczeń (CZWARTEK) 2025, ulica Niwa.</h3>
+<p><span>Rozpoczęcie o godzinie 16.00</span> Od Pani Zofii Wszołek, zakończenie u Pani Haliny Kuciel.</p>
 
 <h3>12 Styczeń (NIEDZIELA) 2025, ulica TRAKT KRÓLEWSKI. TYLKO PRAWA STRONA OD SKLEPU CENTRUM</h3>
 <p><span>Rozpoczęcie o godzinie 16.30</span> Od Państwa Dawida i Pauliny Gicala, zakończenie u Państwa Tadeusza i Anny Pasierb.</p>
@@ -84,17 +84,17 @@ const Carol = () => {
 <h3>27 Styczeń (PONIEDZIAŁEK) 2025, ulica TRAKT KRÓLEWSKI. TYLKO PRAWA STRONA OD SKLEPU CENTRUM</h3>
 <p><span>Rozpoczęcie o godzinie 9.00</span> Od Państwa Jana i Jadwigi Szkodny, zakończenie u Państwa Tomasza i Dagmary Matras.</p>
 
-<h3>8 Lutego (SOBOTA) 2025, ulica SĄSIEDZKA I ZARZECZ</h3>
+<h3>8 Lutego (SOBOTA) 2025, ulica SĄSIEDZKA I ZARZECZE</h3>
 <p><span>Rozpoczęcie o godzinie 9.00</span> Rozpoczęcie o godzinie 9.00. Od Pani Katarzyny Kielan, zakończenie u Państwa Tomasza i Pauliny Biedak.</p>
-
-<h3>23 Styczeń (CZWARTEK) 2025, ulica Siostry Faustyny od strony Bucza</h3>
-<p><span>Rozpoczęcie o godzinie 9.00</span> Od Państwa Sebastiana i Ewy Korygi, zakończenie u Państwa Wiesława i Małgorzaty Bober.</p>
 
 <h3>15 Lutego (SOBOTA) 2025, ulica TRAKT KRÓLEWSKI. TYLKO LEWA STRONA OD SKLEPU CENTRUM</h3>
 <p><span>Rozpoczęcie o godzinie 9.00</span> Rozpoczęcie o godzinie 9.00. Od Pana Stanisława Koczwary, zakończenie u Państwa Daniela i Moniki Klimek.</p>
 
 <h3>22 Lutego (SOBOTA) 2025, ulica TRAKT KRÓLEWSKI ORAZ ULICA WERONIKI PAŁACH. TYLKO LEWA STRONA OD SKLEPU CENTRUM</h3>
 <p><span>Rozpoczęcie o godzinie 9.00</span> Od Państwa Marka i Agnieszki Sobol, zakończenie u Państwa Bolesława i Wilhelminy Bocian.</p>
+
+<h3>01 Marzec (SOBOTA) 2025, ulica Gminna i Potokowa.</h3>
+<p><span>Rozpoczęcie o godzinie 9.00</span> Od Państwa Małgorzaty i Roberta Motak, zakończenie u Państwa Michała i Katarzyny Dziedzic.</p>
 
 
 			</div>

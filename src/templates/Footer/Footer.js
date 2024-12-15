@@ -27,9 +27,9 @@ const Footer = () => {
 					<h4>Proboszcz: </h4>
 					<h4>{person}</h4>
 					<p>telefon: {phone}</p>
-					<h4>Organista: </h4>
+					{/* <h4>Organista: </h4>
 					<h4>{organist}</h4>
-					<p>telefon: {organistPhone}</p>
+					<p>telefon: {organistPhone}</p> */}
 				</div>
 				<div className={styles.politics}>
 					<div className={styles.copyright}>
