@@ -9,7 +9,8 @@ const IntentionItem = ({ item }) => {
 
   const [showDetails, setShowDetails] = useState(false);
 
-  const sortedInfo = intentions.split(/\n/);
+
+    const sortedInfo = intentions ? intentions.split(/\n/) : ''
 
   const vievInformations = sortedInfo.map((item, index) => (
     <li key={index}>{item}</li>

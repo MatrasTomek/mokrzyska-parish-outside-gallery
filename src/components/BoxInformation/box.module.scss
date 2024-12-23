@@ -24,7 +24,7 @@
     display: flex;
     flex-direction: column;
     // background-color: rgba(0, 0, 0, 0.8);
-    background-image: url("../../assets/images/wielkanoc_2024.jpg");
+    background-image: url("../../assets/images/christmas.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -57,13 +57,13 @@
       p {
         color: white;
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 5px;
         font-weight: 700;
         font-size: 14px;
       }
 
-      p:nth-child(1),
-      p:nth-child(3) {
+  .sentence {
+    margin-top:30px;
         width: 100%;
         text-align: right;
         font-style: italic;
@@ -73,6 +73,7 @@
       .sign2 {
         width: 100%;
         margin: 10px auto;
+        margin-bottom: 0 !important;
         text-align: right;
       }
 
@@ -139,6 +140,7 @@
         }
         p{
           font-size: 18px;
+          margin-bottom: 20px;
         }
       }
     }

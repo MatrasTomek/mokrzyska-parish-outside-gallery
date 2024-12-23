@@ -27,16 +27,21 @@ const BoxInformation = () => {
       <div className={styles.inside}>
         <div className={styles.info}>
 
-          <p>Chrystus Zmartwychwstał Alleluja!
-</p>
-<p>Kochani Parafianie!
-Z okazji Świąt Wielkanocnych życzę, aby Zmartwychwstały Chrystus był blisko naszych serc i napełnił je wiarą, nadzieją i miłością. Niech czas Wielkanocny, rozświetli mroki zwątpienia Jasnością Wiary, zabarwi szare dni Kolorami Nadziei, rozgrzeje zmarzniętą duszę Płomieniem Miłości. Nie lękajcie się pustego grobu Chrystusa.
+          <p className={styles.sentence}
 
-</p>
-<p>
+     >„Niech Duch Świętej Rodziny z Nazaretu
+panuje we wszystkich chrześcijańskich domach”
+św. Jan Paweł II</p>
+<p>W tajemnicy Narodzenia Syna Bożego kieruję najlepsze życzenia do Moich Parafian i Ludzi otwartego serca.</p>
+<p>Niech to wydarzenie, które jest wołaniem Boga o miłość między ludźmi, o zrozumienie, wybaczenie i zgodę, o pokój i przyjaźń w Chrystusie – przemieni nasze serca.</p>
+<p>Niech Boże Dziecię będzie źródłem wszelkich darów, niech błogosławi i opromieni swą łaską wszystkie dni Nowego Roku 2025!.</p>
+
+  <p className={styles.sign1}>Szczęść Boże!</p>
+<p className={styles.sign1}>
 Z darem modlitwy
 Ks. Stanisław Tokarski - Proboszcz
-</p>
+  </p>
+
 
 <div className={styles.exit}>     <Button name="X" onClick={handleCloseButton} /></div>
 {/* <div className={styles.look}>    <Button name="zobacz" onClick={handleOnGoToSite} /></div> */}
