@@ -1,10 +1,10 @@
-import React, { useContext } from "react";
-import { Link } from "react-router-dom";
-import { StoreContext } from "../../Store/StoreProvider";
+import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
+import { StoreContext } from '../../Store/StoreProvider';
 
-import { CONTACT_INFORMATION } from "../../Data/contactInformation";
+import { CONTACT_INFORMATION } from '../../Data/contactInformation';
 
-import styles from "./footer.module.scss";
+import styles from './footer.module.scss';
 
 const Footer = () => {
 	const { visitorsObj, visitorsMonthObj } = useContext(StoreContext);
@@ -20,8 +20,8 @@ const Footer = () => {
 					<p>Nr konta: {account}</p>
 					<p>Nip: {nip}</p>
 					<p>Regon: {regon}</p>
-					<h4>Liczba odwiedzin strony: {!visitorsObj ? "" : visitorsObj}</h4>
-					<h4>w tym miesiącu: {!visitorsMonthObj ? "" : visitorsMonthObj}</h4>
+					<h4>Liczba odwiedzin strony: {!visitorsObj ? '' : visitorsObj}</h4>
+					<h4>w tym miesiącu: {!visitorsMonthObj ? '' : visitorsMonthObj}</h4>
 				</div>
 				<div className={styles.contact}>
 					<h4>Proboszcz: </h4>
@@ -33,7 +33,14 @@ const Footer = () => {
 				</div>
 				<div className={styles.politics}>
 					<div className={styles.copyright}>
-						<p>&copy;Parafia Mokrzyska 2024</p>
+						<p>&copy;Parafia Mokrzyska 2025</p>
+					</div>
+					<div className={styles.madeby}>
+						Projekt i wykonanie:{' '}
+						<a href="https://www.developerweb.pl" target="_blank">
+							{' '}
+							ND{' '}
+						</a>
 					</div>
 					<Link to="/rodo">Polityka prywatności</Link>
 				</div>
