@@ -6,27 +6,10 @@ const NewsView = () => {
 		<div className={styles.newsWrapper}>
 			<h2>Aktualności</h2>
 			<div className={styles.newsItem}>
-				<a href="./documents/news/Komunikat_Biskupa_Tarnowskiego.pdf" target="blank">
+				<a href="./documents/news/Misje_Swiete.pdf" target="blank">
 					<div className={styles.newsTitle}>
 						{' '}
-						<h3>Komunikat Biskupa Tarnowskiego w związku ze śmiercią papieża Franciszka</h3>
-					</div>
-				</a>
-			</div>
-			,
-			<div className={styles.newsItem}>
-				<a href="./documents/news/3_forum_rad_duspasterskich.png" target="blank">
-					<div className={styles.newsTitle}>
-						{' '}
-						<h3>Pielgrzymi Nadzieji - III FORUM PARAFIALNYCH RAD DUSZPASTERSKICH</h3>
-					</div>
-				</a>
-			</div>
-			<div className={styles.newsItem}>
-				<a href="./documents/news/Stanowczy_sprzeciw_wobec_działań_MEN.pdf" target="blank">
-					<div className={styles.newsTitle}>
-						{' '}
-						<h3>„Stanowczy sprzeciw wobec działań MEN” Oświadczenie Dyrektorów Wydziałów Katechetycznych</h3>
+						<h3>MISJE ŚWIĘTE 11 – 16.05.2025 r. PARAFIA NAJŚWIĘTSZEGO SERCA PANA JEZUSA MOKRZYSKA</h3>
 					</div>
 				</a>
 			</div>
