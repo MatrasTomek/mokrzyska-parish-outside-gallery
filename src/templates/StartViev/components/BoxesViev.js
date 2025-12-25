@@ -1,13 +1,12 @@
-import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import { ITEMS } from "../../../Data/sliderForGallery";
-import Button from "../../../components/Buttons/Button";
+import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+import { ITEMS } from '../../../Data/sliderForGallery';
+import Button from '../../../components/Buttons/Button';
 
-import styles from "./boxesViev.module.scss";
+import styles from './boxesViev.module.scss';
 
 const BoxesViev = () => {
 	const [index, setIndex] = useState(0);
-
 
 	//TM commented for non show gallery
 
@@ -75,9 +74,7 @@ const BoxesViev = () => {
 					<div>
 						<h2>intencje</h2>
 						<div className={styles.sentence}>
-							<p>
-								"Jedna dobrze przeżyta Komunia Święta zdolna jest zmienić nas w świętych i doskonałych"
-							</p>
+							<p>"Jedna dobrze przeżyta Komunia Święta zdolna jest zmienić nas w świętych i doskonałych"</p>
 							<p>św. Franciszek Salezy</p>
 						</div>
 						<Button name="zobacz" />
@@ -104,13 +101,13 @@ const BoxesViev = () => {
 				</Link>
 			</div>
 			<div className={styles.outside}>
-			<Link to="/standardy">
+				<Link to="/standardy">
 					<div>
 						<h2>Standardy Ochrony Małoletnich w parafii Mokrzyska</h2>
 						<p></p>
 						<Button name="zobacz" />
 					</div>
-					</Link>
+				</Link>
 			</div>
 			<div className={styles.outside}>
 				<Link to="/rada">
@@ -121,7 +118,7 @@ const BoxesViev = () => {
 					</div>
 				</Link>
 			</div>
-			<div className={styles.outside}>
+			{/* <div className={styles.outside}>
 				<Link to="koleda">
 					<div>
 						<h2>Wizyta Duszpasterska / kolęda 2024/2025</h2>
@@ -129,7 +126,7 @@ const BoxesViev = () => {
 						<Button name="zobacz" />
 					</div>
 				</Link>
-			</div>
+			</div> */}
 		</div>
 	);
 };
