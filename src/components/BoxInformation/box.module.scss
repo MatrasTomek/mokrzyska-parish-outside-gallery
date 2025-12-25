@@ -5,8 +5,8 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 360px;
-	height: 260px;
+	width: 340px;
+	height: 380px;
 
 	background-color: $second-color;
 	border: 2px solid $third-color;
@@ -23,8 +23,8 @@
 		margin: auto;
 		display: flex;
 		flex-direction: column;
-		// background-color: rgba(0, 0, 0, 0.8);
-		background-image: url('../../assets/images/1000039977.jpg');
+		background-color: rgba(0, 0, 0, 0.8);
+		background-image: url('../../assets/images/christmas-3882226_1280.jpg');
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
@@ -40,7 +40,7 @@
 			flex-direction: column;
 			align-items: center;
 			justify-content: center;
-			// background-color: rgba(0, 0, 0, 0.5);
+			background-color: rgba(0, 0, 0, 0.7);
 
 			h3,
 			h2,
@@ -98,6 +98,9 @@
 	}
 
 	@media screen and (orientation: landscape) {
+		width: 540px;
+		height: 280px;
+
 		.inside {
 			img {
 				width: 100%;
@@ -107,8 +110,8 @@
 	}
 
 	@media screen and (min-width: map-get($breakpoins, sl)) {
-		width: 600x;
-		height: 390px;
+		width: 640px;
+		height: 280px;
 		.inside {
 			.info {
 				h1 {
@@ -122,8 +125,8 @@
 	}
 
 	@media screen and (min-width: map-get($breakpoins, xl)) {
-		width: 800px;
-		height: 600px;
+		width: 700px;
+		height: 500px;
 
 		.inside {
 			.info {
