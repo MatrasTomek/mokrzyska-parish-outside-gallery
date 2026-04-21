@@ -49,9 +49,9 @@ const BoxesViev = () => {
 						<h2>nabożeństwa</h2>
 						<h3>Msze św. w niedziele:</h3>
 						<p>odprawiane są o:</p>
-						<span>7:30, 10:30, 15:00</span>
+						<span>7:00, 9:00, 10:30</span>
 						<h3>Msze św. w tygodniu:</h3>
-						<span>o godz. 18:00</span>
+						<span>Poniedziałek, Wtorek, Czwartek - 6.30 (pierwszy Czwartek m-ca o 18:00)</span>
 						<h3>W soboty:</h3>
 						<span>o godz. 6.30</span>
 						<Button name="zobacz" />
