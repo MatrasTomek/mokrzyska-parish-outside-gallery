@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const request = axios.create({
-	baseURL: 'https://www.tslapp.ovh/parish',
+	baseURL: process.env.REACT_APP_BASE_URL || 'https://www.parafiamokrzyska.pl/api',
 	validateStatus: false,
 });
 
