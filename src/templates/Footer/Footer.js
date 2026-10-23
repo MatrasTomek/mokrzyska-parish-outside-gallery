@@ -33,7 +33,7 @@ const Footer = () => {
 				</div>
 				<div className={styles.politics}>
 					<div className={styles.copyright}>
-						<p>&copy;Parafia Mokrzyska 2025</p>
+						<p>&copy;Parafia Mokrzyska {new Date().getFullYear()}</p>
 					</div>
 					<div className={styles.madeby}>
 						Projekt i wykonanie:{' '}
