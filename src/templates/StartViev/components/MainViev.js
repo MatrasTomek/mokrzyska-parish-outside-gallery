@@ -22,44 +22,25 @@ const MainViev = () => {
 
   const [index, setIndex] = useState(0);
 
-  let indexNo = index;
-  const changeIndex = () => {
-    indexNo++;
-    if (indexNo === ITEMS.length) {
-      indexNo = 0;
-    }
-    setIndex(indexNo);
-  };
-
   useEffect(() => {
     const interval = setInterval(() => {
-      changeIndex();
+      setIndex((current) => (current + 1) % ITEMS.length);
     }, 20000);
 
     return () => {
       clearInterval(interval);
     };
-  });
+  }, []);
 
   const handleChangeLeft = () => {
-    if (indexNo > 0) {
-      setIndex(index - 1);
-    }
-    if (indexNo === 0) {
-      setIndex(0);
-    }
+    setIndex((current) => Math.max(current - 1, 0));
   };
   const handleChangeRight = () => {
-    if (indexNo >= 0) {
-      setIndex(index + 1);
-    }
-    if (indexNo === 3) {
-      setIndex(3);
-    }
+    setIndex((current) => Math.min(current + 1, ITEMS.length - 1));
   };
 
   const sliders = ITEMS.map((item) => (
-    <div key={item.id} className={styles.image} style={{ left: "100%" }}>
+    <div key={item.id} className={styles.image} style={{ left: item.id === index ? "0%" : "100%" }}>
       <div className={styles.news}>
         <h2>Aktualności: {!news ? "" : news[item.id].title}</h2>
         <p>{!news ? "" : news[item.id].dataOfAdd}</p>
@@ -67,10 +48,6 @@ const MainViev = () => {
       </div>
     </div>
   ));
-  const slideShow = () => {
-    sliders[index].props.style.left = "0%";
-  };
-  slideShow();
 
   return (
     <div className={styles.wrapper}>
@@ -81,7 +58,7 @@ const MainViev = () => {
           onClick={handleChangeLeft}
         ></div>
         <div
-          className={index === 3 ? styles.none : styles.right}
+          className={index === ITEMS.length - 1 ? styles.none : styles.right}
           onClick={handleChangeRight}
         ></div>
       </div>

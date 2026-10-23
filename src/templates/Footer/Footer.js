@@ -37,7 +37,7 @@ const Footer = () => {
 					</div>
 					<div className={styles.madeby}>
 						Projekt i wykonanie:{' '}
-						<a href="https://www.nd-soft.pl/" target="_blank">
+						<a href="https://www.nd-soft.pl/" target="_blank" rel="noopener noreferrer">
 							{' '}
 							NDSOFT{' '}
 						</a>

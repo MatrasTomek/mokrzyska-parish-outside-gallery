@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import StoreProvider from '../src/Store/StoreProvider';
+import StoreProvider from './Store/StoreProvider';
 
 import Navigation from './templates/Navigation/Navigation.js';
 import MainSwitch from './MainSwitch/MainSwitch';

@@ -10,7 +10,10 @@ const StoreProvider = ({ children }) => {
   const [vievPiknik, setVievPiknik] = useState(true);
 
   const checkCookie = () => {
-    if (document.cookie === "accessForParafiaMokrzyska") {
+    const hasConsent = document.cookie
+      .split(";")
+      .some((c) => c.trim().split("=")[0] === "accessForParafiaMokrzyska");
+    if (hasConsent) {
       setVievBanner(false);
     } else {
       setVievBanner(true);

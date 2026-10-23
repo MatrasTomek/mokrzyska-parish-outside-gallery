@@ -7,14 +7,12 @@ import styles from "./rodoBanner.module.scss";
 
 const RodoBanner = ({ setVievBanner }) => {
   const handleSetCookie = () => {
-    const data = new Date();
-    const days = 21;
-    data.setTime(data.getTime() + days * 24 * 60 * 60 * 1000);
+    const maxAge = 21 * 24 * 60 * 60;
+    const secure = window.location.protocol === "https:" ? "; Secure" : "";
 
-    document.cookie = `accessForParafiaMokrzyska; path=/; expires=${data}`;
+    document.cookie = `accessForParafiaMokrzyska=true; path=/; max-age=${maxAge}; SameSite=Lax${secure}`;
     setVievBanner(false);
   };
-  // max-age=2592000000
   const handleOnClose = () => {
     setVievBanner(false);
   };
