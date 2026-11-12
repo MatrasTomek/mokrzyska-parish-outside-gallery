@@ -1,13 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
-import { ITEMS } from '../../../Data/sliderForGallery';
 import Button from '../../../components/Buttons/Button';
 
 import styles from './boxesViev.module.scss';
 
 const BoxesViev = () => {
-	const [index, setIndex] = useState(0);
-
 	//TM commented for non show gallery
 
 	// let indexNo = index;

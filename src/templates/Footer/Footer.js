@@ -8,7 +8,7 @@ import styles from './footer.module.scss';
 
 const Footer = () => {
 	const { visitorsObj, visitorsMonthObj } = useContext(StoreContext);
-	const { name, adress, phone, person, bank, account, nip, regon, organist, organistPhone } = CONTACT_INFORMATION;
+	const { name, adress, phone, person, bank, account, nip, regon } = CONTACT_INFORMATION;
 	return (
 		<div className={styles.wrapper}>
 			<div className={styles.inside}>
