@@ -21,12 +21,16 @@ const Informations = () => {
     //     setSpinner(false);
     //   })
     //   .catch((err) => console.log("Błąd:  ", err));
-    const { data, status } = await request.get("/informations");
-    if (status === 200) {
-      setAllInformations(data.data.reverse());
-      setSpinner(false);
-    } else {
-      console.log(status, data.message);
+    try {
+      const { data, status } = await request.get("/informations");
+      if (status === 200) {
+        setAllInformations(data.data.reverse());
+        setSpinner(false);
+      } else {
+        console.log(status, data?.message);
+      }
+    } catch (err) {
+      console.error("Błąd pobierania /informations:", err);
     }
   };
 

@@ -22,12 +22,16 @@ const Intentions = () => {
     //   })
     //   .catch((err) => console.log("Błąd:  ", err));
 
-    const { data, status } = await request.get("/intentions");
-    if (status === 200) {
-      setAllInformations(data.data.reverse());
-      setSpinner(false);
-    } else {
-      console.log(status, data.message);
+    try {
+      const { data, status } = await request.get("/intentions");
+      if (status === 200) {
+        setAllInformations(data.data.reverse());
+        setSpinner(false);
+      } else {
+        console.log(status, data?.message);
+      }
+    } catch (err) {
+      console.error("Błąd pobierania /intentions:", err);
     }
   };
 

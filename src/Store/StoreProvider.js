@@ -31,12 +31,16 @@ const StoreProvider = ({ children }) => {
     //     addVisitor(data.data);
     //   })
     //   .catch((err) => console.log("Błąd:  ", err));
-    const { data, status } = await request.get("/visitors");
-    if (status === 200) {
-      setVisitorsObj(data.data[0].visitorNo);
-      addVisitor(data.data);
-    } else {
-      console.log(status, data.message);
+    try {
+      const { data, status } = await request.get("/visitors");
+      if (status === 200) {
+        setVisitorsObj(data.data[0].visitorNo);
+        addVisitor(data.data);
+      } else {
+        console.log(status, data?.message);
+      }
+    } catch (err) {
+      console.error("Błąd pobierania /visitors:", err);
     }
   };
 
@@ -50,12 +54,16 @@ const StoreProvider = ({ children }) => {
     //     addVisitorMonth(data.data);
     //   })
     //   .catch((err) => console.log("Błąd:  ", err));
-    const { data, status } = await request.get("/month");
-    if (status === 200) {
-      setVisitorsMonthObj(data.data[0].visitorNo);
-      addVisitorMonth(data.data);
-    } else {
-      console.log(status, data.message);
+    try {
+      const { data, status } = await request.get("/month");
+      if (status === 200) {
+        setVisitorsMonthObj(data.data[0].visitorNo);
+        addVisitorMonth(data.data);
+      } else {
+        console.log(status, data?.message);
+      }
+    } catch (err) {
+      console.error("Błąd pobierania /month:", err);
     }
   };
 
@@ -67,11 +75,15 @@ const StoreProvider = ({ children }) => {
     //   .then((res) => res.json())
     //   .then((data) => setNews(data.data.reverse()))
     //   .catch((err) => console.log("Błąd:  ", err));
-    const { data, status } = await request.get("/news");
-    if (status === 200) {
-      setNews(data.data.reverse());
-    } else {
-      console.log(status, data.message);
+    try {
+      const { data, status } = await request.get("/news");
+      if (status === 200) {
+        setNews(data.data.reverse());
+      } else {
+        console.log(status, data?.message);
+      }
+    } catch (err) {
+      console.error("Błąd pobierania /news:", err);
     }
   };
 

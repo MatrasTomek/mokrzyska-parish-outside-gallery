@@ -1,0 +1,13 @@
+RewriteEngine On
+
+# Wymuś HTTPS — strona otwarta przez http:// przekierowuje na https://.
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# React Router (BrowserRouter): ścieżki, które nie są plikiem ani katalogiem,
+# obsługuje index.html. Katalog /api ma własny .htaccess, więc API nie jest
+# tym objęte.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.html [L]
